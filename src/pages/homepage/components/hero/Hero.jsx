@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { Enquire } from '../../../../components/enquire/Enquire'
+import PostalCode from '../postalCode/PostalCode'
 import Contactform from '../../../contactus/components/Contactform'
 
 const Hero = () => {
@@ -41,7 +42,10 @@ const Hero = () => {
           </div>
         </div>
       </div>
-
+        <div className="">
+          <PostalCode />
+        </div>
+      
 
 
     </>

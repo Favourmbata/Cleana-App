@@ -16,6 +16,7 @@ import Dashboard from './pages/dashboard/Dashboard'
 import Settings from './pages/dashboard/Settings'
 import "../public/css/style.css"
 import Recruitment from './pages/recruitment/Recruitment'
+import LocalOffice from './pages/homepage/components/localOffice/LocalOffice'
 
 
 function App() {
@@ -45,6 +46,7 @@ function App() {
           </Route>
 
           <Route path='/contact-us' element={<Contactus />} />
+          <Route path='/local-office' element={<LocalOffice />} />
         </Route>
         <Route element={<DashboardLayout />} >
           <Route path='/dashboard' element={<Dashboard />} />
