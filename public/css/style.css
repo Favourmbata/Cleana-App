@@ -1,0 +1,6101 @@
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Normalize
+# Typography
+# Global CSS
+# Header CSS
+# Page Header
+# Banner
+# Main
+# Blog
+# Blog Widget
+# Contact Us
+#Footer
+--------------------------------------------------------------*/
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600;9..40,700;9..40,800;9..40,900;9..40,1000&amp;family=Poppins:wght@300;400;500;600;700;800;900&amp;display=swap");
+.m-l0 {
+  margin-left: 0px;
+}
+
+.p-l0 {
+  padding-left: 0px;
+}
+
+.m-r0 {
+  margin-right: 0px;
+}
+
+.p-r0 {
+  padding-right: 0px;
+}
+
+.m-t0 {
+  margin-top: 0px;
+}
+
+.p-t0 {
+  padding-top: 0px;
+}
+
+.m-b0 {
+  margin-bottom: 0px;
+}
+
+.p-b0 {
+  padding-bottom: 0px;
+}
+
+.m-0 {
+  margin: 0px;
+}
+
+.p-0 {
+  padding: 0px;
+}
+
+.m-l10 {
+  margin-left: 10px;
+}
+
+.p-l10 {
+  padding-left: 10px;
+}
+
+.m-r10 {
+  margin-right: 10px;
+}
+
+.p-r10 {
+  padding-right: 10px;
+}
+
+.m-t10 {
+  margin-top: 10px;
+}
+
+.p-t10 {
+  padding-top: 10px;
+}
+
+.m-b10 {
+  margin-bottom: 10px;
+}
+
+.p-b10 {
+  padding-bottom: 10px;
+}
+
+.m-10 {
+  margin: 10px;
+}
+
+.p-10 {
+  padding: 10px;
+}
+
+.m-l20 {
+  margin-left: 20px;
+}
+
+.p-l20 {
+  padding-left: 20px;
+}
+
+.m-r20 {
+  margin-right: 20px;
+}
+
+.p-r20 {
+  padding-right: 20px;
+}
+
+.m-t20 {
+  margin-top: 20px;
+}
+
+.p-t20 {
+  padding-top: 20px;
+}
+
+.m-b20 {
+  margin-bottom: 20px;
+}
+
+.p-b20 {
+  padding-bottom: 20px;
+}
+
+.m-20 {
+  margin: 20px;
+}
+
+.p-20 {
+  padding: 20px;
+}
+
+.m-l30 {
+  margin-left: 30px;
+}
+
+.p-l30 {
+  padding-left: 30px;
+}
+
+.m-r30 {
+  margin-right: 30px;
+}
+
+.p-r30 {
+  padding-right: 30px;
+}
+
+.m-t30 {
+  margin-top: 30px;
+}
+
+.p-t30 {
+  padding-top: 30px;
+}
+
+.m-b30 {
+  margin-bottom: 30px;
+}
+
+.p-b30 {
+  padding-bottom: 30px;
+}
+
+.m-30 {
+  margin: 30px;
+}
+
+.p-30 {
+  padding: 30px;
+}
+
+.m-l50 {
+  margin-left: 50px;
+}
+
+.p-l50 {
+  padding-left: 50px;
+}
+
+.m-r50 {
+  margin-right: 50px;
+}
+
+.p-r50 {
+  padding-right: 50px;
+}
+
+.m-t50 {
+  margin-top: 50px;
+}
+
+.p-t50 {
+  padding-top: 50px;
+}
+
+.m-b50 {
+  margin-bottom: 50px;
+}
+
+.p-b50 {
+  padding-bottom: 50px;
+}
+
+.m-50 {
+  margin: 50px;
+}
+
+.p-50 {
+  padding: 50px;
+}
+
+/* @@@@@@@@@@@@@  Extend Property CSS start here  @@@@@@@@@@@@@@ */
+/*=========<<Flex property extends start>>=========*/
+.cart__item, .cart__bottom form, .review__meta, .review__showing ul li, .singlecontent .countadd, .shop__item--list .shop__inner, .orderform__item ul li, .orderform__item ul, .quote, .blog--three .blog__content ul, .blog--two .blog__content ul, .blog--one .blog__content ul, .testimonial__rating, .testimonial__content--top, .testimonial__inner, .testimonial__navigation, .project--details .project__info .content ul, .team--deatils .team__thumb--info ul li, .team--two .team__content ul, .team--two .team__item, .pricing--three .pricing__price, .pricing--two .pricing__price, .pricing--one .pricing__bottom, .pricing--one .pricing__body ul, .pricing--one .pricing__top, .banner--two .banner__content, .progressbararea li .title, .common-filter, .tags-section .tags, .tags-section, .btn-group, .footer__gallery ul, .footer__post ul li, .footer__product ul li, .footer__about ul, .footer__top--form form, .sidebar__totalamaunt .top, .sidebar__radiolist .form-check .formcheck, .sidebar__subtotal, .sidebar__relatedpost .body ul, .sidebar__commentForm form, .sidebar__comment .body ul li .content__top, .sidebar__categorie .body ul li, .sidebar__author .body, .sidebar .body ul li, .widget__help .widget__body ul li, .mrcart__head, .search__area form, .search, .header__bararea, .header--two .header__top .info ul li, .header--two .header__top .info ul, .header__bottom .area .menu, .header__bottom .area {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.orderform__item ul li, .pricing--three .pricing__price, .pricing--two .pricing__price, .search__area form, .search {
+  justify-content: center;
+}
+
+.cart__bottom form, .review__meta, .testimonial__content--top, .progressbararea li .title, .tags-section, .sidebar__totalamaunt .top, .sidebar__radiolist .form-check .formcheck, .sidebar__subtotal, .sidebar__relatedpost .body ul, .sidebar__commentForm form, .sidebar__comment .body ul li .content__top, .sidebar__categorie .body ul li, .mrcart__head, .header--two .header__bottom .area .main-menu, .header__bottom .area .menu, .header__bottom .area {
+  justify-content: space-between;
+}
+
+.singlecontent .countadd, .banner--two .banner__content {
+  justify-content: flex-start;
+}
+
+.common-filter, .btn-group {
+  align-items: center;
+}
+
+.preloader, .common-filter__btn {
+  place-items: center;
+}
+
+/*=========<<Flex property extends end>>=========*/
+/*=========<<Display property extends start>>=========*/
+.shop__product.lists .shop__item, .shop__product.grids .shop__item--list, .choose--one::after, .testimonial__thumb .shapeimg, .project--details .project__content::after, .team--one .team__social--list ul li a span, .banner--two .banner__thumb, .banner--one .banner__thumb--content, .banner--one .banner__thumb::after, .footer__about ul li span, .contact--one .contact__area::after, .mrcart__body ul li.mrcart__remove, .header__bottom.header-fixed .header__ellepsis {
+  display: none;
+}
+
+.review__poston a, .shop__product.lists .shop__item--list, .project__content span, .team--two .team__content span, .process--two .process__content h5 span, .process--one .process__content h5 span, .pricing--one .pricing__top--right h3 span, .footer__gallery ul li a, .sidebar__calculate button, .sidebar__author .content span, .widget__body ul li a, .contact--three .contact__content p b, .header__bottom .area .menu ul li ul li, .header__bottom .area .menu ul li a {
+  display: block;
+}
+
+.preloader {
+  display: grid;
+}
+
+.review__form form .ratings__rating, .review__form form .ratings__title, .review__nav li, .singlecontent .rating p, .shop__content .rating p, .shop__link a, .counter--one .counter__count h2, .blog--three .blog__content ul li, .testimonial__rating span, .testimonial__rating .rating, .project__icon, .team--deatils .team__thumb--info ul li .right ul li a, .team--deatils .team__thumb--info ul li .right ul li, .team--two .team__content ul li a, .team--two .team__content ul li, .team--one .team__social--list ul li a, .process--two .process__icon span, .process--one .process__icon span, .pricing--two .pricing__price--right, .pricing--two .pricing__price--left, .pricing--one .section__header .phone, .service--one .service__pagination span, .banner--one .banner__discount, .lab-btn, .scrollToTop, .tags-section .social-link-list li a, .tags-section .tags li a, .tags-section .tags li span i, .fb-btn, .custom-btn, .footer__gallery ul li, .footer__post--content span, .footer__product--content span, .footer__about ul li i, .footer__about ul li a, .footer__about ul li, .sidebar__tags .body ul li a, .sidebar__author .body .content ul li, .sidebar__author .content ul li a, .sidebar__author .content ul li, .mrcart__footer ul li a, .mrcart__footer ul li, .header__cartcount span, .header__bar span, .header--one .header__top .social li a i, .header--one .header__top .social li a, .header--one .header__top .social li, .header--one .header__top .info ul li, .header__bottom .area .menu .search_cart ul li a, .header__bottom .area .menu ul li {
+  display: inline-block;
+}
+
+.common-filter__btn {
+  display: inline-grid;
+}
+
+/*=========<<Display property extends end>>=========*/
+/*=========<<Position property extends start>>=========*/
+.custom-btn, .header__cartcount, .shop__thumb, .shop__mode a, .orderform__item ul li label, .orderform__item ul li, .choose--one, .testimonial__content, .testimonial__thumb .thumb img, .testimonial__thumb .thumb, .testimonial__thumb, .testimonial__inner, .project__item, .team--deatils .team__thumb--info ul li .right, .team--two .team__item, .team--one .team__thumb, .team--one .team__item, .process--two .process__icon, .process--one .process__icon, .pricing--three .pricing__price, .pricing--three .pricing__thumb, .pricing--one .pricing__item, .pricing--one .section__header .phone, .service--two .service__thumb, .feature__item, .feature__area, .banner--two .banner__content, .banner--one .banner__thumb, .tags-section .tags li span, .cart-plus-minus, .sidebar__search form, .contact--two .contact__thumb, .contact--two .contact__area, .contact--two .section__header, .contact--two .section__wrapper, .contact--one .contact__area, .mrcart__body ul li, .menu-item-has-children > a, .header__bar, .header--one, .header__bottom .area .menu .search_cart ul li, .header__bottom .area .menu ul li {
+  position: relative;
+}
+
+.custom-btn:before, .custom-btn:after, .shop__thumb::after, .shop__mode a::after, .orderform__item ul li input, .faq--two .accordion-button:before, .faq--two .accordion-button:after, .faq .accordion-button:before, .faq .accordion-button:after, .choose--one::after, .testimonial__content .shapeimg, .testimonial__thumb .shapeimg, .project__icon, .project__content::after, .project__content, .team--deatils .team__thumb--info ul li .right::after, .team--two .team__item::after, .team--one .team__social, .team--one .team__thumb::after, .process--two .process__icon span, .process--one .process__icon span, .pricing--three .pricing__thumb .shapeimg, .pricing--three .pricing__thumb h4, .pricing--three .pricing__thumb::after, .pricing--one .pricing__item .abs_offer, .pricing--one .section__header .phone::after, .service--two .service__icon, .service--two .service__thumb::after, .banner--two .banner__thumb, .banner--one .banner__thumb--content, .banner--one .banner__thumb::after, .tags-section .tags li span::after, .cart-plus-minus .qtybutton, .sidebar__search form button, .contact--two .contact__area::before, .contact--two .contact__area::after, .contact--one .contact__area::after, .mrcart__itemclose, .search__close, .menu-item-has-children > a::before, .menu-item-has-children > a::after, .header__cartcount span, .header__bar span, .header__bottom .area .menu .search_cart ul li span, .header__bottom .area .menu .search_cart ul li:last-child::before, .header__bottom .area .menu .search_cart ul li::after {
+  position: absolute;
+  content: "";
+}
+
+.preloader {
+  position: fixed;
+}
+
+/*=========<<Position property extends end>>=========*/
+/*=========<<Text property extends start>>=========*/
+.cart__top table tbody tr td:last-child, .cart__top table thead tr th:nth-child(3), .shop__link a, .shop__link, .orderform__item ul li, .counter__item, .quote i, .testimonial__inner, .testimonial__navigation .navi, .project__icon, .team--deatils .team__thumb--info ul li .right ul li a, .team--two .team__content ul li a, .team--one .team__social--list ul li a, .process--two .process__item, .process--one .process__item, .pricing--three .pricing__price, .pricing--three .pricing__content, .pricing--two .pricing__content, .service--one .service__pagination span, .sponsor__thumb, .banner--one .banner__thumb--content, .scrollToTop, .tags-section .social-link-list li a, .pagination li .page-link, .footer__about ul li i, .sidebar__calculate button, .sidebar__author .content ul li a, .sidebar__author, .contact--three .contact__item, .search__area form button, .header__cartcount span, .header--one .header__top .social li a i {
+  text-align: center;
+}
+
+.cart__content, .team--one .team__social--list, .sidebar__author .body .content {
+  text-align: left;
+}
+
+.cart__top table thead tr th:last-child {
+  text-align: right;
+}
+
+.common-filter__btn, .breadcrumb-item {
+  font-weight: 600;
+}
+
+.custom-btn {
+  font-weight: 700;
+}
+
+.counter--one .counter__title h6, .banner--two .banner__content h2, .banner--one .banner__discount, .banner--one .banner__content h6, .banner--one .banner__content h2, .common-filter__btn, .custom-btn {
+  text-transform: uppercase;
+}
+
+.cart__bottom form input::placeholder, .cart__top table thead tr th, .review__poston a, .review__nav li, .singlecontent .rating p, .shop__content .rating p, .blog--three .blog__content ul li, .blog--two .blog__content ul li, .blog--one .blog__content ul li, .testimonial__content .name h5, .project--details .project__info .content ul li .info, .project--details .project__info .content ul li .name, .project__content span, .team--deatils .team__thumb--info ul li .left p, .team--deatils .team__thumb--info span, .team--one .team__social--list ul li a span, .team--one .team__content span, .pricing--two .pricing__price--right, .pricing--one .pricing__bottom h5 span, .pricing--one .section__header h2, .service--two .service__content ul li, .service--two .service__content h5 a, .progressbararea li .title p, .filters-button-group .filter-btn, input::placeholder, textarea::placeholder, select::placeholder, .lab-btn, .section__header h5, .tags-section .tags li a, .footer__about ul li span, .footer__title h5, .footer__bottom p a, .sidebar__totalamaunt .top p, .sidebar__calculate button, .sidebar__calculate select::placeholder, .sidebar__calculate input::placeholder, .sidebar__calculate p, .sidebar__radiolist .form-check .formcheck label, .sidebar__shipping p, .sidebar__subtotal p, .sidebar__comment .body ul li .content .reply a, .sidebar__tags .body ul li a, .sidebar__author .content span, .widget__body ul li a, .pageheader__area .breadcrumb li, .header__bottom .area .menu ul li a, h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-transform: capitalize;
+}
+
+/*=========<<Text property extends end>>=========*/
+/*=========<<Margin & padding property extends start>>=========*/
+/*-------<< margin properties >>-------*/
+.tags-section .tags, .sidebar__author .body .content ul li {
+  margin: 0;
+}
+
+.team--deatils .team__thumb--info ul li .right ul, .tags-section .social-link-list {
+  margin-block-start: 0;
+}
+
+.cart__item, .singlecontent .rating p, .shop__content .rating p, .shop__content .price, .shop__title p, .orderform__item ul li label, .faq--two .accordion-body p, .faq .accordion-body p, .counter--one .counter__title h6, .quote h5, .blog--three .blog__content p, .blog--three .blog__content h5, .blog--three .blog__content h3, .blog--two .blog__content h5, .testimonial__content .name h5, .project--details .project__info .title h5, .team--deatils .team__thumb--info ul li .right p, .team--deatils .team__thumb--info ul li .left p, .process--two .process__content p, .process--one .process__content p, .pricing--three .pricing__price p, .pricing--three .pricing__price h4, .pricing--three .pricing__thumb h4, .pricing--two .pricing__price--right p, .pricing--two .pricing__price--left h4, .pricing--two .payment__content p, .pricing--one .pricing__bottom h5, .feature__content p, .banner--one .banner__thumb--content h5, .footer__about h6, .footer__bottom p, .footer__top--title h2, .sidebar__subtotal p, .sidebar__recentproduct .body ul li .content .price, .sidebar .body ul li .content h6, .sidebar .head h6, .sidebar .head h5, .widget__help .widget__body ul li .content p, .widget__help .widget__body ul li .icon img, .widget__head h6, .contact--three .contact__content p, .mrcart__content h6, .header--two .header__top .info__content p, ul,
+ol {
+  margin-block-end: 0;
+}
+
+/*-------<< margin properties >>-------*/
+.singlecontent .countadd .cart-plus-minus, .testimonial__navigation .navi, .team--deatils .team__thumb--info ul li .right ul li, .service--one .service__pagination span, .filters-button-group .filter-btn, .pagination li .page-link {
+  margin: 5px;
+}
+
+.shop__content h6, .project__content h5, .team--two .team__content h5, .team--one .team__social--share, .team--one .team__content h5, .sidebar__comment .body ul li .content__top .name h6, .sidebar__author .content h5 {
+  margin-block-end: 5px;
+}
+
+/*-------<< margin properties >>-------*/
+.blog--three .blog__content {
+  margin-block-start: 10px;
+}
+
+.review__poston p, .singlethumb__left .nav-link, .counter__count h2, .testimonial__content .name, .team--deatils .team__content .progressbararea li .title p, .process--two .process__content h5, .process--one .process__content h5, .sidebar__comment .body ul li .content__top, .sidebar__author .content span {
+  margin-block-end: 10px;
+}
+
+.fb-btn span {
+  margin-inline-end: 10px;
+}
+
+/*-------<< margin properties >>-------*/
+.review__form, .footer__about ul {
+  margin-block-start: 15px;
+}
+
+.review__showing ul li .thumb, .review__showing ul li, .singlethumb__left, .shop__item--list .shop__content .rating, .orderform__item .lab-btn, .orderform__item label, .quote i, .blog--two .blog__content ul, .team--two .team__content span, .pricing--three .pricing__content h4, .pricing--three .pricing__content, .pricing--two .pricing__content h4, .pricing--two .pricing__content, .banner--one .banner__discount, .banner--one .banner__content h6, .lab_btn_group .lab-btn, .footer__about img, .sidebar__totalamaunt .top, .sidebar__calculate, .widget__help .widget__body img, .widget__brochure .widget__body img, .mrcart__thumb {
+  margin-block-end: 15px;
+}
+
+/*-------<< margin properties >>-------*/
+.team--deatils .team__thumb--info ul, .feature--one .feature__content .text-btn {
+  margin-block-start: 20px;
+}
+
+.blog--one .blog__content h5, .choose--one .choose__thumb, .testimonial__content p, .team--two .team__content p, .service--two .service__content ul, .sidebar__calculate select, .sidebar__calculate input, .contact--three .contact__content h5, .mrcart__head {
+  margin-block-end: 20px;
+}
+
+/*-------<< margin properties >>-------*/
+.singlecontent .rating, .counter--one .counter__thumb, .service--details .service__maincontent img, .sidebar__author .thumb {
+  margin-block-end: 25px;
+}
+
+/*-------<< margin properties >>-------*/
+.testimonial__navigation, .pricing--two .payment, .service--details .service__maincontent form, .header--two .header__bottom .area .main-menu .menu .lab-btn, .header--one .header__bottom .menu .lab-btn {
+  margin-block-start: 30px;
+}
+
+.review__title, .singlecontent ul, .shop__title, .project--details .project__thumb, .team--deatils .team__content p, .team--two .team__thumb, .pricing--three .pricing__content ul, .pricing--two .pricing__price, .pricing--two .pricing__content ul, .pricing--one .pricing__body ul, .pricing--one .pricing__body p, .pricing--one .pricing__top, .pricing--one .section__header .phone, .feature__thumb, .banner--two .banner__content p, .filters-button-group, .footer__about p, .sidebar__commentForm form input, .sidebar__commentForm form textarea, .widget__brochure, .widget__service, .contact--three .contact__icon, .mrcart__body {
+  margin-block-end: 30px;
+}
+
+/*-------<< margin properties >>-------*/
+/*-------<< margin properties >>-------*/
+.banner--one .banner__content p {
+  margin-block-end: 40px;
+}
+
+/*-------<< margin properties >>-------*/
+/*-------<< margin properties >>-------*/
+/*-------<< margin properties >>-------*/
+/*-------<< margin properties >>-------*/
+/*------<< Paddings >>---------*/
+.singlethumb__left .nav-link, .project--details .project__content, .team--deatils .team__thumb--info ul li .right ul li, .tags-section .tags, .pagination li .page-link, .sidebar__author .body .content ul li, .header__bottom .area .menu .search_cart ul li a {
+  padding: 0;
+}
+
+ul,
+ol {
+  padding-inline-start: 0;
+}
+
+.sidebar__radiolist .form-check input {
+  padding: 5px;
+}
+
+.shop__item, .shop__title, .blog--three .blog__content, .blog--three .blog__item, .blog--two .blog__content, .blog--two .blog__item, input, textarea, select, .sidebar__search form input {
+  padding: 15px;
+}
+
+.pricing--three .pricing__item, .pricing--two .pricing__item, .service--details .service__maincontent form input, .service--details .service__maincontent form textarea, .sidebar__relatedpost .body, .sidebar__tags .body, .sidebar__search .body, .sidebar .head {
+  padding: 20px;
+}
+
+.mrcart__head {
+  padding-block-end: 20px;
+}
+
+.singlethumb {
+  padding: 25px;
+}
+
+.sidebar__shipping {
+  padding-block-end: 25px;
+}
+
+.cart__bottom, .review__content, .singlecontent, .orderform__area, .counter__item, .quote, .blog--one .blog__content, .project--details .project__info .title, .project--details .project__item, .project__content, .team--deatils .section__wrapper, .team--two .team__item, .pricing--two .payment, .service--details .service__maincontent, .service--two .service__content, .service--one .service__content, .sidebar__totalamaunt, .sidebar__shipping, .sidebar__commentForm form, .sidebar__author, .widget__help .widget__body, .widget__brochure .widget__body, .mrcart {
+  padding: 30px;
+}
+
+.review__form {
+  padding-block-start: 30px;
+}
+
+/*=========<<Margin property extends end>>=========*/
+/*=========<<overflow property extends start>>=========*/
+.custom-btn, .cart__top, .review__area, .shop__thumb, .orderform__item ul li, .faq .accordion-item, .faq, .blog--three .blog__thumb, .blog--three .blog__item, .blog--two .blog__thumb, .blog--two .blog__item, .blog--one .blog__thumb, .blog--one .blog__item, .project__item, .team--one .team__thumb, .team--one .team__item, .service--two .service__item, .service--one .service__thumb, .service--one .service__item, .sponsor__item, .banner--two .banner__thumb, .banner--one, .cart-plus-minus, .footer__gallery ul li a, .footer__gallery ul li, .footer__post--thumb, .footer__product--thumb, .footer, .sidebar__recentproduct .body ul li .thumb, .sidebar__relatedpost .body ul li .thumb, .sidebar__recentpost .body ul li .thumb, .sidebar__author .thumb, .contact--two .contact__area, .mrcart__thumb a img, .sidebar__recentproduct .body ul li .content h6, .cart__content a, .blog--two .blog__content h5 a, .blog--one .blog__content h5 a, .footer__post--content h6 a, .footer__product--content h6 a, .sidebar .body ul li .content h6 a {
+  overflow: hidden;
+}
+
+.custom-btn {
+  overflow: hidden;
+}
+
+/*=========<<overflow property extends end>>=========*/
+/*=========<<Cursor property extends start>>=========*/
+.team--one .team__social--list ul li a, .team--one .team__social--share, .service--one .service__pagination span, .form-control.date-input, .review__nav li, .singlethumb__left .thumb, .shop__content .rating span, .shop__mode a.active, .shop__mode a:hover, .orderform__item ul li label, .orderform__item ul li input, .orderform__item ul li, .filters-button-group .filter-btn, .cart-plus-minus .qtybutton, .mrcart__itemclose, .mrcart__close, .search__close, .header__ellepsis i, .header__bar, .header__bottom .area .menu .search_cart ul li {
+  cursor: pointer;
+}
+
+/*=========<<Cursor property extends end>>=========*/
+/*=========<< Height-Width property extends start>>=========*/
+.cart__top table, .singlethumb__right .thumb img, .singlethumb__right, .shop__link, .shop__thumb img, .shop__thumb::after, .shop__item--list .shop__thumb, .shop__product.lists .col-lg-4.col-sm-6.col-12, .orderform__item .cart-plus-minus input, .orderform__item .cart-plus-minus, .orderform__item ul li input, .blog--three .blog__thumb img, .blog--two .blog__thumb img, .blog--one .blog__thumb img, .project--details .project__info .content ul li, .project__content, .project__thumb img, .team--deatils .team__thumb img, .team--two .team__content, .team--two .team__thumb img, .team--two .team__thumb, .team--one .team__thumb img, .team--one .team__thumb::after, .pricing--three .pricing__price h4, .pricing--three .pricing__thumb img, .pricing--three .pricing__thumb::after, .pricing--two .pricing__thumb img, .service--details .service__maincontent img, .service--two .service__thumb img, .service--one .service__thumb img, .sponsor__thumb img, .preloader, input, textarea, select, .map iframe, .custom-btn--fluid, .footer__gallery ul li a img, .footer__post--thumb img, .footer__product--thumb img, .sidebar__relatedpost .body ul li .thumb img, .sidebar__relatedpost .body ul li, .sidebar__commentForm form input, .sidebar__author .body .content, .sidebar__author .body .thumb img, .sidebar__author .body .thumb, .widget__help .widget__body img, .widget__brochure .widget__body img, .search, .header__bar span, .header--two .header__bottom .area .main-menu, .header__bottom.header-fixed {
+  width: 100%;
+}
+
+.singlethumb__right .thumb img, .shop__thumb img, .shop__thumb::after, .orderform__item ul li input, .project__content, .team--two .team__thumb img, .team--one .team__thumb img, .team--one .team__thumb::after, .pricing--three .pricing__thumb::after, .pricing--two .pricing__thumb img, .service--details .service__maincontent img, .preloader, .map iframe, .footer__post--thumb img, .footer__product--thumb img, .sidebar__author .body .thumb img, .search {
+  height: 100%;
+}
+
+/*=========<< Height-Width property extends end>>=========*/
+/*=========<< List Style property extends start>>=========*/
+.tags-section .tags li, ul,
+ol {
+  list-style: none;
+}
+
+/*=========<< List Style property extends end>>=========*/
+/*=========<< Color extends start>>=========*/
+.cart__content a, .cart__top table thead tr th, .review__poston a, .shop__title p, .faq .accordion-button.collapsed .accordion-icon, .counter--one .counter__title h6, .counter--one .counter__count h2, .counter__count h2, .project--details .project__info .title h5, .team--deatils .team__thumb--info ul li .left p, .team--two .team__content ul li a, .sponsor--two .section__header h5, .sponsor--one .section__header h5, .banner--two .banner__content p, .banner--two .banner__content h2, .progressbararea li .title p, .filters-button-group .filter-btn, .pagination li .page-link, .sidebar__calculate button, .sidebar__radiolist .form-check .formcheck span, .sidebar__author .content ul li a, .search__area form input, .header--two .header__top .info__content p, .header__bottom .area .menu .search_cart ul li span, .header__bottom .area .menu ul li a {
+  color: #1F2A59;
+}
+
+.review__nav li, .shop__link a:hover, .orderform__item ul li.active label, .faq .accordion-button, .counter--one .section__header h5, .counter--one .section__header h2, .quote h5, .quote i, .testimonial__rating span, .testimonial__rating .rating i, .testimonial__navigation .navi, .testimonial .section__header h2, .testimonial .section__header h5, .project__content span, .project__content h5 a, .team--deatils .team__thumb--info ul li .right ul li a:hover, .team--deatils .team__thumb--info ul li .right ul li a, .team--two .team__content ul li a:hover, .team--one .team__social--list ul li a, .team--one .team__social--share, .process--two .process__icon span, .process--two .section__header h2, .process--two .section__header h5, .process--one .process__icon span, .process--one .section__header h2, .process--one .section__header h5, .pricing--three .pricing__price p, .pricing--three .pricing__price h4, .pricing--three .pricing__thumb h4, .pricing--two .pricing__price--right p, .pricing--two .pricing__price--left h4, .pricing--one .pricing__bottom h5, .pricing--one .pricing__body ul li, .pricing--one .pricing__body p, .pricing--one .pricing__top--right h3, .pricing--one .section__header h2, .pricing--one .section__header h5, .service--one .service__pagination span, .banner--one .banner__thumb--content span, .banner--one .banner__discount, .banner--one .banner__content p, .banner--one .banner__content h6, .banner--one .banner__content h2, .filters-button-group .filter-btn.is-checked, .lab-btn.bg-title:hover, .lab-btn:hover, .lab-btn, .tags-section .social-link-list li a, .pagination li .page-link:hover, .footer__post--content h6 a, .footer__product--content h6 a, .footer__about ul li span, .footer__about ul li a, .footer__about h6, .footer__about p, .footer__title h5, .footer__bottom p a, .footer__bottom p, .footer__top--form form button, .footer__top--title h2, .sidebar__calculate button:hover, .sidebar__comment .body ul li .content .reply a, .sidebar__tags .body ul li a:hover, .widget__body ul li a:hover, .breadcrumb-item + .breadcrumb-item::before, .pageheader__area .breadcrumb li a:hover, .pageheader__area .breadcrumb li a.active, .pageheader__area .breadcrumb li a, .pageheader__area .breadcrumb li, .pageheader__area h2, .mrcart__itemclose, .mrcart__content h6, .mrcart__content h4 a, .mrcart__close, .mrcart__footer ul li:last-child a, .mrcart__footer ul li:hover a, .search__close, .menu-item-has-children.open > a::after, .menu-item-has-children.open > a::before, .header__cartcount span, .header--two .header__bottom .area .main-menu .menu ul li ul li a, .header--two .header__bottom .area .main-menu .menu ul li a, .header--one .header__top .social li a span, .header--one .header__top .social li, .header--one .header__top .info ul li, .header__bottom .area .menu ul li ul li a {
+  color: #fff;
+}
+
+.blog--three .blog__content ul li, .project--details .project__info, .header__bottom .area .menu .search_cart {
+  margin-right: 30px;
+}
+
+.cart__top table thead tr th, .review__poston a, .singlecontent .rating p, .shop__content .price, .counter--one .counter__title h6, .team--deatils .team__thumb--info ul li .left p, .process--two .process__icon span, .process--one .process__icon span, .service--one .service__pagination span, .banner--one .banner__discount, .banner--one .banner__content h2, .progressbararea li .title p, .filters-button-group .filter-btn, .lab-btn, .pagination li .page-link, .sidebar__totalamaunt .top p, .sidebar__calculate p, .sidebar__shipping p, .sidebar__subtotal p, .mrcart__footer ul li a, .header__cartcount span, .header__bottom .area .menu .search_cart ul li span, .header__bottom .area .menu ul li a {
+  font-weight: 700;
+}
+
+.cart__top table, .blog--three .blog__content h5, .blog--two .blog__content h5, .project--details .project__content h5, .team--deatils .team__content h5, .service--details .service__maincontent h5, .banner--one .banner__content h6 {
+  font-weight: 600;
+}
+
+.singlecontent h6 span, .banner--one .banner__thumb--content span {
+  font-weight: 500;
+}
+
+.shop__content .price span, .counter__title h6, .pricing--one .pricing__bottom h5 span, .pricing--one .pricing__top--right h3 span, .contact--three .contact__content p b {
+  font-weight: 400;
+}
+
+.shop__link {
+  position: absolute;
+  content: "";
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.orderform__item ul li, .pricing--three .pricing__price, .pricing--two .pricing__price, .search__area form, .search {
+  justify-content: center;
+}
+
+.cart__bottom form, .review__meta, .testimonial__content--top, .progressbararea li .title, .tags-section, .sidebar__totalamaunt .top, .sidebar__radiolist .form-check .formcheck, .sidebar__subtotal, .sidebar__relatedpost .body ul, .sidebar__commentForm form, .sidebar__comment .body ul li .content__top, .sidebar__categorie .body ul li, .mrcart__head, .header--two .header__bottom .area .main-menu, .header__bottom .area .menu, .header__bottom .area {
+  justify-content: space-between;
+}
+
+.singlecontent .countadd, .banner--two .banner__content {
+  justify-content: flex-start;
+}
+
+.cart__item, .orderform__item ul li, .testimonial__rating, .testimonial__inner, .pricing--two .pricing__price, .pricing--one .pricing__bottom, .tags-section .tags, .tags-section, .footer__post ul li, .footer__product ul li, .sidebar__comment .body ul li .content__top, .sidebar .body ul li, .widget__help .widget__body ul li, .mrcart__head, .search, .header__bararea, .header--two .header__top .info ul li, .header__bottom .area {
+  align-items: center;
+}
+
+.cart__content a:hover, .review__form form .ratings__rating i, .review__poston a:hover, .review__meta .rating i, .singlecontent .rating a, .singlecontent .rating span, .singlecontent h4, .shop__content .rating span i, .shop__link a, .shop__item:hover .shop__content h6 a, .shop__mode a.active, .shop__mode a:hover, .blog--three .blog__content ul li, .blog--three .blog__item:hover .blog__content h5 a, .blog--two .blog__content ul li, .blog--two .blog__item:hover .blog__content h5 a, .blog--one .blog__content ul li, .blog--one .blog__item:hover .blog__content h5 a, .project--details .project__info .content ul li .name, .project__icon, .pricing--one .pricing__bottom .lab-btn, .service--one .service__item:hover .service__content h5 a, .feature--one .feature__item:hover .feature__content h5 a, .progressbararea li .title p span, .footer__post ul li:hover .footer__post--content h6 a, .footer__post--content span, .footer__product ul li:hover .footer__product--content h6 a, .footer__product--content span, .footer__bottom p a:hover, .sidebar__totalamaunt .top span, .sidebar__subtotal span, .sidebar__recentproduct .body ul li .content .rating span, .sidebar__recentproduct .body ul li:hover .content h6 a, .sidebar__relatedpost .body ul li:hover .content h6 a, .sidebar__categorie .body ul li:hover a, .sidebar__categorie .body ul li:hover span, .sidebar__recentpost .body ul li:hover .content h6 a, .contact--three .contact__content p span, .mrcart__footer ul li a, .mrcart__footer ul li:last-child:hover a {
+  color: #F7931E;
+}
+
+.team--deatils .team__thumb--info ul li .right ul li a, .sidebar__calculate button, .sidebar__radiolist .form-check input {
+  background: #ECF4FE;
+}
+
+.cart__bottom, .cart__top table tbody, .cart__top table thead, .review__area, .singlecontent, .singlethumb, .shop__link a, .shop__item, .shop__title, .orderform__area, .faq--two .accordion-collapse, .faq .accordion-collapse, .faq .accordion-button.collapsed::after, .faq .accordion-button.collapsed::before, .faq .accordion-button.collapsed .accordion-icon, .counter__item, .blog--three .blog__item, .blog--two .blog__item, .blog--one .blog__item, .project--details .project__info, .project--details .project__item, .project__icon, .team--deatils .section__wrapper, .team--two .team__item, .team--one .team__item, .process--two .process__item, .process--one .process__item, .pricing--three .pricing__item, .pricing--two .pricing__item, .pricing--two .payment, .pricing--one .pricing__bottom .lab-btn, .service--details .service__maincontent form input, .service--details .service__maincontent form textarea, .service--details .service__maincontent, .service--two .service__item, .service--one .service__item, .feature__item, .filters-button-group .filter-btn, .sidebar__cartamount, .sidebar__recentproduct, .sidebar__relatedpost, .sidebar__commentForm, .sidebar__comment, .sidebar__tags, .sidebar__categorie, .sidebar__recentpost, .sidebar__search form input, .sidebar__search, .sidebar__author, .widget__help, .widget__brochure, .widget__service, .contact--three .contact__item, .contact--two .contact__area, .mrcart__footer ul li a, .mrcart__footer ul li:last-child:hover a, .header--two .header__bottom .area .main-menu .menu ul li ul li a::after, .header--two .header__bottom .area .main-menu .menu ul li ul li a::before, .header--two .header__bottom .area .main-menu .menu ul li a::after, .header--two .header__bottom .area .main-menu .menu ul li a::before, .header--one .header__top .social li a i {
+  background: #fff;
+}
+
+.review__nav li.active, .shop__link a:hover, .quote i, .blog--one .blog__content .lab-btn:hover, .testimonial__rating span, .team--deatils .team__thumb--info ul li .right ul li a:hover, .team--two .team__content ul li a:hover, .team--two .team__item:hover .team__thumb::after, .pricing--three .pricing__price, .pricing--three .pricing__content .lab-btn:hover, .pricing--two .pricing__content .lab-btn:hover, .pricing--one .section__wrapper .col-12 .pricing__item, .progressbararea li .progress .progress-bar, .filters-button-group .filter-btn.is-checked, .lab-btn.bg-title:hover, .lab-btn, .tags-section .tags li a:hover, .tags-section .tags li span::after, .tags-section .tags li span, .sidebar__calculate button:hover, .widget__body ul li a:hover, .mrcart {
+  background: #F7931E;
+}
+
+.faq--two .accordion-button.collapsed::after, .faq--two .accordion-button.collapsed::before, .faq--two .accordion-button.collapsed .accordion-icon, .faq .accordion-button, .service--one .service__pagination span, .progressbararea li .progress, .lab-btn:hover, .mrcart__footer ul li:last-child a, .mrcart__footer ul li:hover a, .search, .header__bar span, .header--two .header__bottom {
+  background: #1F2A59;
+}
+
+.team--deatils .team__thumb--info ul li .right, .team--one .team__social--list ul li a span, .footer__post--content, .footer__product--content, .sidebar .body ul li .content, .widget__help .widget__body ul li .content, .header--two .header__top .info__content {
+  padding-left: 15px;
+}
+
+.description__content ul li, .singlecontent ul li, .header__bar {
+  margin-left: 20px;
+}
+
+/* @@@@@@@@@@@@@  Extend Property CSS Writing Now  @@@@@@@@@@@@@@ */
+.cart__content a, .blog--two .blog__content h5 a, .blog--one .blog__content h5 a, .footer__post--content h6 a, .footer__product--content h6 a, .sidebar .body ul li .content h6 a {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+}
+
+.sidebar__recentproduct .body ul li .content h6 {
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+}
+
+/*=========<< Color extends end>>=========*/
+/* @@@@@@@@@@@@@  Extend Property CSS Writing Now  @@@@@@@@@@@@@@ */
+.cart__item, .cart__bottom form, .review__meta, .review__showing ul li, .singlecontent .countadd, .shop__item--list .shop__inner, .orderform__item ul li, .orderform__item ul, .quote, .blog--three .blog__content ul, .blog--two .blog__content ul, .blog--one .blog__content ul, .testimonial__rating, .testimonial__content--top, .testimonial__inner, .testimonial__navigation, .project--details .project__info .content ul, .team--deatils .team__thumb--info ul li, .team--two .team__content ul, .team--two .team__item, .pricing--three .pricing__price, .pricing--two .pricing__price, .pricing--one .pricing__bottom, .pricing--one .pricing__body ul, .pricing--one .pricing__top, .banner--two .banner__content, .progressbararea li .title, .common-filter, .tags-section .tags, .tags-section, .btn-group, .footer__gallery ul, .footer__post ul li, .footer__product ul li, .footer__about ul, .footer__top--form form, .sidebar__totalamaunt .top, .sidebar__radiolist .form-check .formcheck, .sidebar__subtotal, .sidebar__relatedpost .body ul, .sidebar__commentForm form, .sidebar__comment .body ul li .content__top, .sidebar__categorie .body ul li, .sidebar__author .body, .sidebar .body ul li, .widget__help .widget__body ul li, .mrcart__head, .search__area form, .search, .header__bararea, .header--two .header__top .info ul li, .header--two .header__top .info ul, .header__bottom .area .menu, .header__bottom .area {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.shop__thumb, .shop__mode a, .orderform__item ul li label, .orderform__item ul li, .choose--one, .testimonial__content, .testimonial__thumb .thumb img, .testimonial__thumb .thumb, .testimonial__thumb, .testimonial__inner, .project__item, .team--deatils .team__thumb--info ul li .right, .team--two .team__item, .team--one .team__thumb, .team--one .team__item, .process--two .process__icon, .process--one .process__icon, .pricing--three .pricing__price, .pricing--three .pricing__thumb, .pricing--one .pricing__item, .pricing--one .section__header .phone, .service--two .service__thumb, .feature__item, .feature__area, .banner--two .banner__content, .banner--one .banner__thumb, .tags-section .tags li span, .cart-plus-minus, .sidebar__search form, .contact--two .contact__thumb, .contact--two .contact__area, .contact--two .section__header, .contact--two .section__wrapper, .contact--one .contact__area, .mrcart__body ul li, .menu-item-has-children > a, .header__bar, .header--one, .header__bottom .area .menu .search_cart ul li, .header__bottom .area .menu ul li, .custom-btn, .header__cartcount {
+  position: relative;
+}
+
+.mrcart, .search, .preloader {
+  position: fixed;
+}
+
+.shop__thumb::after, .shop__mode a::after, .orderform__item ul li input, .faq--two .accordion-button:before, .faq--two .accordion-button:after, .faq .accordion-button:before, .faq .accordion-button:after, .choose--one::after, .testimonial__content .shapeimg, .testimonial__thumb .shapeimg, .project__icon, .project__content::after, .project__content, .team--deatils .team__thumb--info ul li .right::after, .team--two .team__item::after, .team--one .team__social, .team--one .team__thumb::after, .process--two .process__icon span, .process--one .process__icon span, .pricing--three .pricing__thumb .shapeimg, .pricing--three .pricing__thumb h4, .pricing--three .pricing__thumb::after, .pricing--one .pricing__item .abs_offer, .pricing--one .section__header .phone::after, .service--two .service__icon, .service--two .service__thumb::after, .banner--two .banner__thumb, .banner--one .banner__thumb--content, .banner--one .banner__thumb::after, .tags-section .tags li span::after, .cart-plus-minus .qtybutton, .sidebar__search form button, .contact--two .contact__area::before, .contact--two .contact__area::after, .contact--one .contact__area::after, .mrcart__itemclose, .search__close, .menu-item-has-children > a::before, .menu-item-has-children > a::after, .header__cartcount span, .header__bar span, .header__bottom .area .menu .search_cart ul li span, .header__bottom .area .menu .search_cart ul li:last-child::before, .header__bottom .area .menu .search_cart ul li::after, .custom-btn:before, .custom-btn:after {
+  position: absolute;
+  content: "";
+}
+
+.cart__top, .review__area, .shop__thumb, .orderform__item ul li, .faq .accordion-item, .faq, .blog--three .blog__thumb, .blog--three .blog__item, .blog--two .blog__thumb, .blog--two .blog__item, .blog--one .blog__thumb, .blog--one .blog__item, .project__item, .team--one .team__thumb, .team--one .team__item, .service--two .service__item, .service--one .service__thumb, .service--one .service__item, .sponsor__item, .banner--two .banner__thumb, .banner--one, .cart-plus-minus, .footer__gallery ul li a, .footer__gallery ul li, .footer__post--thumb, .footer__product--thumb, .footer, .sidebar__recentproduct .body ul li .thumb, .sidebar__relatedpost .body ul li .thumb, .sidebar__recentpost .body ul li .thumb, .sidebar__author .thumb, .contact--two .contact__area, .mrcart__thumb a img, .cart__content a, .blog--two .blog__content h5 a, .blog--one .blog__content h5 a, .footer__post--content h6 a, .footer__product--content h6 a, .sidebar .body ul li .content h6 a, .sidebar__recentproduct .body ul li .content h6, .custom-btn {
+  overflow: hidden;
+}
+
+.review__nav li, .singlethumb__left .thumb, .shop__content .rating span, .shop__mode a.active, .shop__mode a:hover, .orderform__item ul li label, .orderform__item ul li input, .orderform__item ul li, .filters-button-group .filter-btn, .cart-plus-minus .qtybutton, .mrcart__itemclose, .mrcart__close, .search__close, .header__ellepsis i, .header__bar, .header__bottom .area .menu .search_cart ul li {
+  cursor: pointer;
+}
+
+.cart__top table, .singlethumb__right .thumb img, .singlethumb__right, .shop__link, .shop__thumb img, .shop__thumb::after, .shop__item--list .shop__thumb, .shop__product.lists .col-lg-4.col-sm-6.col-12, .orderform__item .cart-plus-minus input, .orderform__item .cart-plus-minus, .orderform__item ul li input, .blog--three .blog__thumb img, .blog--two .blog__thumb img, .blog--one .blog__thumb img, .project--details .project__info .content ul li, .project__content, .project__thumb img, .team--deatils .team__thumb img, .team--two .team__content, .team--two .team__thumb img, .team--two .team__thumb, .team--one .team__thumb img, .team--one .team__thumb::after, .pricing--three .pricing__price h4, .pricing--three .pricing__thumb img, .pricing--three .pricing__thumb::after, .pricing--two .pricing__thumb img, .service--details .service__maincontent img, .service--two .service__thumb img, .service--one .service__thumb img, .sponsor__thumb img, .preloader, input, textarea, select, .map iframe, .custom-btn--fluid, .footer__gallery ul li a img, .footer__post--thumb img, .footer__product--thumb img, .sidebar__relatedpost .body ul li .thumb img, .sidebar__relatedpost .body ul li, .sidebar__commentForm form input, .sidebar__author .body .content, .sidebar__author .body .thumb img, .sidebar__author .body .thumb, .widget__help .widget__body img, .widget__brochure .widget__body img, .search, .header__bar span, .header--two .header__bottom .area .main-menu, .header__bottom.header-fixed {
+  width: 100%;
+}
+
+.singlethumb__right .thumb img, .shop__thumb img, .shop__thumb::after, .orderform__item ul li input, .project__content, .team--two .team__thumb img, .team--one .team__thumb img, .team--one .team__thumb::after, .pricing--three .pricing__thumb::after, .pricing--two .pricing__thumb img, .service--details .service__maincontent img, .preloader, .map iframe, .footer__post--thumb img, .footer__product--thumb img, .sidebar__author .body .thumb img, .search {
+  height: 100%;
+}
+
+.cart__top table thead tr th, .review__poston a, .singlecontent .rating p, .shop__content .price, .counter--one .counter__title h6, .team--deatils .team__thumb--info ul li .left p, .process--two .process__icon span, .process--one .process__icon span, .service--one .service__pagination span, .banner--one .banner__discount, .banner--one .banner__content h2, .progressbararea li .title p, .filters-button-group .filter-btn, .lab-btn, .pagination li .page-link, .sidebar__totalamaunt .top p, .sidebar__calculate p, .sidebar__shipping p, .sidebar__subtotal p, .mrcart__footer ul li a, .header__cartcount span, .header__bottom .area .menu .search_cart ul li span, .header__bottom .area .menu ul li a {
+  font-weight: 700;
+}
+
+.cart__top table, .blog--three .blog__content h5, .blog--two .blog__content h5, .project--details .project__content h5, .team--deatils .team__content h5, .service--details .service__maincontent h5, .banner--one .banner__content h6 {
+  font-weight: 600;
+}
+
+.singlecontent h6 span, .banner--one .banner__thumb--content span {
+  font-weight: 500;
+}
+
+.shop__content .price span, .counter__title h6, .pricing--one .pricing__bottom h5 span, .pricing--one .pricing__top--right h3 span, .contact--three .contact__content p b {
+  font-weight: 400;
+}
+
+.shop__link {
+  position: absolute;
+  content: "";
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.orderform__item ul li, .pricing--three .pricing__price, .pricing--two .pricing__price, .search__area form, .search {
+  justify-content: center;
+}
+
+.cart__bottom form, .review__meta, .testimonial__content--top, .progressbararea li .title, .tags-section, .sidebar__totalamaunt .top, .sidebar__radiolist .form-check .formcheck, .sidebar__subtotal, .sidebar__relatedpost .body ul, .sidebar__commentForm form, .sidebar__comment .body ul li .content__top, .sidebar__categorie .body ul li, .mrcart__head, .header--two .header__bottom .area .main-menu, .header__bottom .area .menu, .header__bottom .area {
+  justify-content: space-between;
+}
+
+.singlecontent .countadd, .banner--two .banner__content {
+  justify-content: flex-start;
+}
+
+.cart__item, .orderform__item ul li, .testimonial__rating, .testimonial__inner, .pricing--two .pricing__price, .pricing--one .pricing__bottom, .tags-section .tags, .tags-section, .footer__post ul li, .footer__product ul li, .sidebar__comment .body ul li .content__top, .sidebar .body ul li, .widget__help .widget__body ul li, .mrcart__head, .search, .header__bararea, .header--two .header__top .info ul li, .header__bottom .area {
+  align-items: center;
+}
+
+.team--deatils .team__thumb--info ul li .right ul li a, .sidebar__calculate button, .sidebar__radiolist .form-check input {
+  background: #ECF4FE;
+}
+
+/* @@@@@@@@@@@@@  Extend Property CSS Writing Now  @@@@@@@@@@@@@@ */
+.cart__content a, .blog--two .blog__content h5 a, .blog--one .blog__content h5 a, .footer__post--content h6 a, .footer__product--content h6 a, .sidebar .body ul li .content h6 a {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+}
+
+.sidebar__recentproduct .body ul li .content h6 {
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+}
+
+.shop__product.lists .shop__item, .shop__product.grids .shop__item--list, .choose--one::after, .testimonial__thumb .shapeimg, .project--details .project__content::after, .team--one .team__social--list ul li a span, .banner--two .banner__thumb, .banner--one .banner__thumb--content, .banner--one .banner__thumb::after, .footer__about ul li span, .contact--one .contact__area::after, .mrcart__body ul li.mrcart__remove, .header__bottom.header-fixed .header__ellepsis {
+  display: none;
+}
+
+.review__poston a, .shop__product.lists .shop__item--list, .project__content span, .team--two .team__content span, .process--two .process__content h5 span, .process--one .process__content h5 span, .pricing--one .pricing__top--right h3 span, .footer__gallery ul li a, .sidebar__calculate button, .sidebar__author .content span, .widget__body ul li a, .contact--three .contact__content p b, .header__bottom .area .menu ul li ul li, .header__bottom .area .menu ul li a {
+  display: block;
+}
+
+.review__form form .ratings__rating, .review__form form .ratings__title, .review__nav li, .singlecontent .rating p, .shop__content .rating p, .shop__link a, .counter--one .counter__count h2, .blog--three .blog__content ul li, .testimonial__rating span, .testimonial__rating .rating, .project__icon, .team--deatils .team__thumb--info ul li .right ul li a, .team--deatils .team__thumb--info ul li .right ul li, .team--two .team__content ul li a, .team--two .team__content ul li, .team--one .team__social--list ul li a, .process--two .process__icon span, .process--one .process__icon span, .pricing--two .pricing__price--right, .pricing--two .pricing__price--left, .pricing--one .section__header .phone, .service--one .service__pagination span, .banner--one .banner__discount, .lab-btn, .scrollToTop, .tags-section .social-link-list li a, .tags-section .tags li a, .tags-section .tags li span i, .fb-btn, .custom-btn, .footer__gallery ul li, .footer__post--content span, .footer__product--content span, .footer__about ul li i, .footer__about ul li a, .footer__about ul li, .sidebar__tags .body ul li a, .sidebar__author .body .content ul li, .sidebar__author .content ul li a, .sidebar__author .content ul li, .mrcart__footer ul li a, .mrcart__footer ul li, .header__cartcount span, .header__bar span, .header--one .header__top .social li a i, .header--one .header__top .social li a, .header--one .header__top .social li, .header--one .header__top .info ul li, .header__bottom .area .menu .search_cart ul li a, .header__bottom .area .menu ul li {
+  display: inline-block;
+}
+
+.tags-section .social-link-list li a {
+  border-radius: 2px;
+}
+
+/* @@@@@@@@@@@@@  Extend Property CSS Writing Now  @@@@@@@@@@@@@@ */
+.cart__bottom form .lab-btn, .cart__top table thead tr th, .review__form form .lab-btn, .service--details .service__maincontent form .lab-btn, .map iframe, .sidebar__calculate button, .sidebar__commentForm form button, .sidebar__author .body .content ul li, .search__area form button {
+  border: none;
+}
+
+.cart__bottom form input::placeholder, .cart__top table thead tr th, .review__poston a, .review__nav li, .singlecontent .rating p, .shop__content .rating p, .blog--three .blog__content ul li, .blog--two .blog__content ul li, .blog--one .blog__content ul li, .testimonial__content .name h5, .project--details .project__info .content ul li .info, .project--details .project__info .content ul li .name, .project__content span, .team--deatils .team__thumb--info ul li .left p, .team--deatils .team__thumb--info span, .team--one .team__social--list ul li a span, .team--one .team__content span, .pricing--two .pricing__price--right, .pricing--one .pricing__bottom h5 span, .pricing--one .section__header h2, .service--two .service__content ul li, .service--two .service__content h5 a, .progressbararea li .title p, .filters-button-group .filter-btn, input::placeholder, textarea::placeholder, select::placeholder, .lab-btn, .section__header h5, .tags-section .tags li a, .footer__about ul li span, .footer__title h5, .footer__bottom p a, .sidebar__totalamaunt .top p, .sidebar__calculate button, .sidebar__calculate select::placeholder, .sidebar__calculate input::placeholder, .sidebar__calculate p, .sidebar__radiolist .form-check .formcheck label, .sidebar__shipping p, .sidebar__subtotal p, .sidebar__comment .body ul li .content .reply a, .sidebar__tags .body ul li a, .sidebar__author .content span, .widget__body ul li a, .pageheader__area .breadcrumb li, .header__bottom .area .menu ul li a, h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-transform: capitalize;
+}
+
+.counter--one .counter__title h6, .banner--two .banner__content h2, .banner--one .banner__discount, .banner--one .banner__content h6, .banner--one .banner__content h2, .common-filter__btn, .custom-btn {
+  text-transform: uppercase;
+}
+
+/* @@@@@@@@@@@@@  Extend Property CSS Writing Now  @@@@@@@@@@@@@@ */
+.review__nav li, .shop__link a:hover, .orderform__item ul li.active label, .faq .accordion-button, .counter--one .section__header h5, .counter--one .section__header h2, .quote h5, .quote i, .testimonial__rating span, .testimonial__rating .rating i, .testimonial__navigation .navi, .testimonial .section__header h2, .testimonial .section__header h5, .project__content span, .project__content h5 a, .team--deatils .team__thumb--info ul li .right ul li a:hover, .team--deatils .team__thumb--info ul li .right ul li a, .team--two .team__content ul li a:hover, .team--one .team__social--list ul li a, .team--one .team__social--share, .process--two .process__icon span, .process--two .section__header h2, .process--two .section__header h5, .process--one .process__icon span, .process--one .section__header h2, .process--one .section__header h5, .pricing--three .pricing__price p, .pricing--three .pricing__price h4, .pricing--three .pricing__thumb h4, .pricing--two .pricing__price--right p, .pricing--two .pricing__price--left h4, .pricing--one .pricing__bottom h5, .pricing--one .pricing__body ul li, .pricing--one .pricing__body p, .pricing--one .pricing__top--right h3, .pricing--one .section__header h2, .pricing--one .section__header h5, .service--one .service__pagination span, .banner--one .banner__thumb--content span, .banner--one .banner__discount, .banner--one .banner__content p, .banner--one .banner__content h6, .banner--one .banner__content h2, .filters-button-group .filter-btn.is-checked, .lab-btn.bg-title:hover, .lab-btn:hover, .lab-btn, .tags-section .social-link-list li a, .pagination li .page-link:hover, .footer__post--content h6 a, .footer__product--content h6 a, .footer__about ul li span, .footer__about ul li a, .footer__about h6, .footer__about p, .footer__title h5, .footer__bottom p a, .footer__bottom p, .footer__top--form form button, .footer__top--title h2, .sidebar__calculate button:hover, .sidebar__comment .body ul li .content .reply a, .sidebar__tags .body ul li a:hover, .widget__body ul li a:hover, .breadcrumb-item + .breadcrumb-item::before, .pageheader__area .breadcrumb li a:hover, .pageheader__area .breadcrumb li a.active, .pageheader__area .breadcrumb li a, .pageheader__area .breadcrumb li, .pageheader__area h2, .mrcart__itemclose, .mrcart__content h6, .mrcart__content h4 a, .mrcart__close, .mrcart__footer ul li:last-child a, .mrcart__footer ul li:hover a, .search__close, .menu-item-has-children.open > a::after, .menu-item-has-children.open > a::before, .header__cartcount span, .header--two .header__bottom .area .main-menu .menu ul li ul li a, .header--two .header__bottom .area .main-menu .menu ul li a, .header--one .header__top .social li a span, .header--one .header__top .social li, .header--one .header__top .info ul li, .header__bottom .area .menu ul li ul li a {
+  color: #fff;
+}
+
+.cart__bottom, .cart__top table tbody, .cart__top table thead, .review__area, .singlecontent, .singlethumb, .shop__link a, .shop__item, .shop__title, .orderform__area, .faq--two .accordion-collapse, .faq .accordion-collapse, .faq .accordion-button.collapsed::after, .faq .accordion-button.collapsed::before, .faq .accordion-button.collapsed .accordion-icon, .counter__item, .blog--three .blog__item, .blog--two .blog__item, .blog--one .blog__item, .project--details .project__info, .project--details .project__item, .project__icon, .team--deatils .section__wrapper, .team--two .team__item, .team--one .team__item, .process--two .process__item, .process--one .process__item, .pricing--three .pricing__item, .pricing--two .pricing__item, .pricing--two .payment, .pricing--one .pricing__bottom .lab-btn, .service--details .service__maincontent form input, .service--details .service__maincontent form textarea, .service--details .service__maincontent, .service--two .service__item, .service--one .service__item, .feature__item, .filters-button-group .filter-btn, .sidebar__cartamount, .sidebar__recentproduct, .sidebar__relatedpost, .sidebar__commentForm, .sidebar__comment, .sidebar__tags, .sidebar__categorie, .sidebar__recentpost, .sidebar__search form input, .sidebar__search, .sidebar__author, .widget__help, .widget__brochure, .widget__service, .contact--three .contact__item, .contact--two .contact__area, .mrcart__footer ul li a, .mrcart__footer ul li:last-child:hover a, .header--two .header__bottom .area .main-menu .menu ul li ul li a::after, .header--two .header__bottom .area .main-menu .menu ul li ul li a::before, .header--two .header__bottom .area .main-menu .menu ul li a::after, .header--two .header__bottom .area .main-menu .menu ul li a::before, .header--one .header__top .social li a i {
+  background-color: #fff;
+}
+
+.sidebar__author .content ul li a {
+  background-color: #FEFBF2;
+}
+
+.cart__content a, .cart__top table thead tr th, .review__poston a, .shop__title p, .faq .accordion-button.collapsed .accordion-icon, .counter--one .counter__title h6, .counter--one .counter__count h2, .counter__count h2, .project--details .project__info .title h5, .team--deatils .team__thumb--info ul li .left p, .team--two .team__content ul li a, .sponsor--two .section__header h5, .sponsor--one .section__header h5, .banner--two .banner__content p, .banner--two .banner__content h2, .progressbararea li .title p, .filters-button-group .filter-btn, .pagination li .page-link, .sidebar__calculate button, .sidebar__radiolist .form-check .formcheck span, .sidebar__author .content ul li a, .search__area form input, .header--two .header__top .info__content p, .header__bottom .area .menu .search_cart ul li span, .header__bottom .area .menu ul li a {
+  color: #1F2A59;
+}
+
+.faq--two .accordion-button.collapsed::after, .faq--two .accordion-button.collapsed::before, .faq--two .accordion-button.collapsed .accordion-icon, .faq .accordion-button, .service--one .service__pagination span, .progressbararea li .progress, .lab-btn:hover, .mrcart__footer ul li:last-child a, .mrcart__footer ul li:hover a, .search, .header__bar span, .header--two .header__bottom {
+  background: #1F2A59;
+}
+
+.cart__content a:hover, .review__form form .ratings__rating i, .review__poston a:hover, .review__meta .rating i, .singlecontent .rating a, .singlecontent .rating span, .singlecontent h4, .shop__content .rating span i, .shop__link a, .shop__item:hover .shop__content h6 a, .shop__mode a.active, .shop__mode a:hover, .blog--three .blog__content ul li, .blog--three .blog__item:hover .blog__content h5 a, .blog--two .blog__content ul li, .blog--two .blog__item:hover .blog__content h5 a, .blog--one .blog__content ul li, .blog--one .blog__item:hover .blog__content h5 a, .project--details .project__info .content ul li .name, .project__icon, .pricing--one .pricing__bottom .lab-btn, .service--one .service__item:hover .service__content h5 a, .feature--one .feature__item:hover .feature__content h5 a, .progressbararea li .title p span, .footer__post ul li:hover .footer__post--content h6 a, .footer__post--content span, .footer__product ul li:hover .footer__product--content h6 a, .footer__product--content span, .footer__bottom p a:hover, .sidebar__totalamaunt .top span, .sidebar__subtotal span, .sidebar__recentproduct .body ul li .content .rating span, .sidebar__recentproduct .body ul li:hover .content h6 a, .sidebar__relatedpost .body ul li:hover .content h6 a, .sidebar__categorie .body ul li:hover a, .sidebar__categorie .body ul li:hover span, .sidebar__recentpost .body ul li:hover .content h6 a, .contact--three .contact__content p span, .mrcart__footer ul li a, .mrcart__footer ul li:last-child:hover a {
+  color: #F7931E;
+}
+
+.review__nav li.active, .shop__link a:hover, .quote i, .blog--one .blog__content .lab-btn:hover, .testimonial__rating span, .team--deatils .team__thumb--info ul li .right ul li a:hover, .team--two .team__content ul li a:hover, .team--two .team__item:hover .team__thumb::after, .pricing--three .pricing__price, .pricing--three .pricing__content .lab-btn:hover, .pricing--two .pricing__content .lab-btn:hover, .pricing--one .section__wrapper .col-12 .pricing__item, .progressbararea li .progress .progress-bar, .filters-button-group .filter-btn.is-checked, .lab-btn.bg-title:hover, .lab-btn, .tags-section .tags li a:hover, .tags-section .tags li span::after, .tags-section .tags li span, .sidebar__calculate button:hover, .widget__body ul li a:hover, .mrcart {
+  background: #F7931E;
+}
+
+.sidebar__categorie .body ul li a i, .sidebar .body ul li .content span {
+  color: #555555;
+}
+
+.cart__top table tbody tr td:last-child, .cart__top table thead tr th:nth-child(3), .shop__link a, .shop__link, .orderform__item ul li, .counter__item, .quote i, .testimonial__inner, .testimonial__navigation .navi, .project__icon, .team--deatils .team__thumb--info ul li .right ul li a, .team--two .team__content ul li a, .team--one .team__social--list ul li a, .process--two .process__item, .process--one .process__item, .pricing--three .pricing__price, .pricing--three .pricing__content, .pricing--two .pricing__content, .service--one .service__pagination span, .sponsor__thumb, .banner--one .banner__thumb--content, .scrollToTop, .tags-section .social-link-list li a, .pagination li .page-link, .footer__about ul li i, .sidebar__calculate button, .sidebar__author .content ul li a, .sidebar__author, .contact--three .contact__item, .search__area form button, .header__cartcount span, .header--one .header__top .social li a i {
+  text-align: center;
+}
+
+.cart__top table thead tr th:last-child {
+  text-align: right;
+}
+
+.cart__content, .team--one .team__social--list, .sidebar__author .body .content {
+  text-align: left;
+}
+
+.tags-section .tags li, ul,
+ol {
+  list-style: none;
+}
+
+/* @@@@@@@@@@@@@  Extend Property Margin 10 - 30 CSS Writing Now  @@@@@@@@@@@@@@ */
+.tags-section .tags, .sidebar__author .body .content ul li {
+  margin: 0;
+}
+
+.cart__item, .singlecontent .rating p, .shop__content .rating p, .shop__content .price, .shop__title p, .orderform__item ul li label, .faq--two .accordion-body p, .faq .accordion-body p, .counter--one .counter__title h6, .quote h5, .blog--three .blog__content p, .blog--three .blog__content h5, .blog--three .blog__content h3, .blog--two .blog__content h5, .testimonial__content .name h5, .project--details .project__info .title h5, .team--deatils .team__thumb--info ul li .right p, .team--deatils .team__thumb--info ul li .left p, .process--two .process__content p, .process--one .process__content p, .pricing--three .pricing__price p, .pricing--three .pricing__price h4, .pricing--three .pricing__thumb h4, .pricing--two .pricing__price--right p, .pricing--two .pricing__price--left h4, .pricing--two .payment__content p, .pricing--one .pricing__bottom h5, .feature__content p, .banner--one .banner__thumb--content h5, .footer__about h6, .footer__bottom p, .footer__top--title h2, .sidebar__subtotal p, .sidebar__recentproduct .body ul li .content .price, .sidebar .body ul li .content h6, .sidebar .head h6, .sidebar .head h5, .widget__help .widget__body ul li .content p, .widget__help .widget__body ul li .icon img, .widget__head h6, .contact--three .contact__content p, .mrcart__content h6, .header--two .header__top .info__content p, ul,
+ol {
+  margin-bottom: 0px;
+}
+
+.review__poston p, .singlethumb__left .nav-link, .counter__count h2, .testimonial__content .name, .team--deatils .team__content .progressbararea li .title p, .process--two .process__content h5, .process--one .process__content h5, .sidebar__comment .body ul li .content__top, .sidebar__author .content span {
+  margin-bottom: 10px;
+}
+
+.singlecontent .rating, .counter--one .counter__thumb, .service--details .service__maincontent img, .sidebar__author .thumb {
+  margin-bottom: 25px;
+}
+
+.blog--three .blog__content {
+  margin-top: 10px;
+}
+
+.lab-btn i {
+  margin-left: 10px;
+}
+
+.blog--two .blog__content ul li:last-child, .tags-section .social-link-list li:last-child {
+  margin-right: 0;
+}
+
+.blog--three .blog__content ul li i, .blog--two .blog__content ul li i, .blog--one .blog__content ul li i, .service--two .service__content ul li i, .sidebar__categorie .body ul li a i, .widget__body ul li a i {
+  margin-right: 5px;
+}
+
+.singlecontent .rating p, .singlecontent h6 span, .tags-section .social-link-list li {
+  margin-right: 10px;
+}
+
+.review__showing ul li .thumb, .review__showing ul li, .singlethumb__left, .shop__item--list .shop__content .rating, .orderform__item .lab-btn, .orderform__item label, .quote i, .blog--two .blog__content ul, .team--two .team__content span, .pricing--three .pricing__content h4, .pricing--three .pricing__content, .pricing--two .pricing__content h4, .pricing--two .pricing__content, .banner--one .banner__discount, .banner--one .banner__content h6, .lab_btn_group .lab-btn, .footer__about img, .sidebar__totalamaunt .top, .sidebar__calculate, .widget__help .widget__body img, .widget__brochure .widget__body img, .mrcart__thumb {
+  margin-bottom: 15px;
+}
+
+.team--deatils .team__thumb--info ul li .right ul, .tags-section .social-link-list {
+  margin-top: 0;
+}
+
+.review__form, .footer__about ul {
+  margin-top: 15px;
+}
+
+.singlecontent .countadd .lab-btn {
+  margin-left: 15px;
+}
+
+.review__form form .ratings__title, .lab_btn_group .lab-btn {
+  margin-right: 15px;
+}
+
+.blog--one .blog__content h5, .choose--one .choose__thumb, .testimonial__content p, .team--two .team__content p, .service--two .service__content ul, .sidebar__calculate select, .sidebar__calculate input, .contact--three .contact__content h5, .mrcart__head {
+  margin-bottom: 20px;
+}
+
+.team--deatils .team__thumb--info ul, .feature--one .feature__content .text-btn {
+  margin-top: 20px;
+}
+
+.description__content ul li, .singlecontent ul li, .header__bar {
+  margin-left: 20px;
+}
+
+.blog--two .blog__content ul li, .pricing--one .pricing__top--left, .tags-section .tags li span {
+  margin-right: 20px;
+}
+
+.cart__item, .singlecontent .rating p, .shop__content .rating p, .shop__content .price, .shop__title p, .orderform__item ul li label, .faq--two .accordion-body p, .faq .accordion-body p, .counter--one .counter__title h6, .quote h5, .blog--three .blog__content p, .blog--three .blog__content h5, .blog--three .blog__content h3, .blog--two .blog__content h5, .testimonial__content .name h5, .project--details .project__info .title h5, .team--deatils .team__thumb--info ul li .right p, .team--deatils .team__thumb--info ul li .left p, .process--two .process__content p, .process--one .process__content p, .pricing--three .pricing__price p, .pricing--three .pricing__price h4, .pricing--three .pricing__thumb h4, .pricing--two .pricing__price--right p, .pricing--two .pricing__price--left h4, .pricing--two .payment__content p, .pricing--one .pricing__bottom h5, .feature__content p, .banner--one .banner__thumb--content h5, .footer__about h6, .footer__bottom p, .footer__top--title h2, .sidebar__subtotal p, .sidebar__recentproduct .body ul li .content .price, .sidebar .body ul li .content h6, .sidebar .head h6, .sidebar .head h5, .widget__help .widget__body ul li .content p, .widget__help .widget__body ul li .icon img, .widget__head h6, .contact--three .contact__content p, .mrcart__content h6, .header--two .header__top .info__content p, ul,
+ol {
+  margin-bottom: 0px;
+}
+
+.shop__content h6, .project__content h5, .team--two .team__content h5, .team--one .team__social--share, .team--one .team__content h5, .sidebar__comment .body ul li .content__top .name h6, .sidebar__author .content h5 {
+  margin-bottom: 5px;
+}
+
+.review__title, .singlecontent ul, .shop__title, .project--details .project__thumb, .team--deatils .team__content p, .team--two .team__thumb, .pricing--three .pricing__content ul, .pricing--two .pricing__price, .pricing--two .pricing__content ul, .pricing--one .pricing__body ul, .pricing--one .pricing__body p, .pricing--one .pricing__top, .pricing--one .section__header .phone, .feature__thumb, .banner--two .banner__content p, .filters-button-group, .footer__about p, .sidebar__commentForm form input, .sidebar__commentForm form textarea, .widget__brochure, .widget__service, .contact--three .contact__icon, .mrcart__body {
+  margin-bottom: 30px;
+}
+
+.testimonial__navigation, .pricing--two .payment, .service--details .service__maincontent form, .header--two .header__bottom .area .main-menu .menu .lab-btn, .header--one .header__bottom .menu .lab-btn {
+  margin-top: 30px;
+}
+
+.blog--three .blog__content ul li, .project--details .project__info, .header__bottom .area .menu .search_cart {
+  margin-right: 30px;
+}
+
+/* @@@@@@@@@@@@@  Extend Property padding 10 - 30 CSS Writing Now  @@@@@@@@@@@@@@ */
+.singlethumb__left .nav-link, .project--details .project__content, .team--deatils .team__thumb--info ul li .right ul li, .tags-section .tags, .pagination li .page-link, .sidebar__author .body .content ul li, .header__bottom .area .menu .search_cart ul li a {
+  padding: 0;
+}
+
+.sidebar__radiolist .form-check input {
+  padding: 5px;
+}
+
+.shop__item, .shop__title, .blog--three .blog__content, .blog--three .blog__item, .blog--two .blog__content, .blog--two .blog__item, input, textarea, select, .sidebar__search form input {
+  padding: 15px;
+}
+
+.pricing--three .pricing__item, .pricing--two .pricing__item, .service--details .service__maincontent form input, .service--details .service__maincontent form textarea, .sidebar__relatedpost .body, .sidebar__tags .body, .sidebar__search .body, .sidebar .head {
+  padding: 20px;
+}
+
+.cart__bottom, .review__content, .singlecontent, .orderform__area, .counter__item, .quote, .blog--one .blog__content, .project--details .project__info .title, .project--details .project__item, .project__content, .team--deatils .section__wrapper, .team--two .team__item, .pricing--two .payment, .service--details .service__maincontent, .service--two .service__content, .service--one .service__content, .sidebar__totalamaunt, .sidebar__shipping, .sidebar__commentForm form, .sidebar__author, .widget__help .widget__body, .widget__brochure .widget__body, .mrcart {
+  padding: 30px;
+}
+
+.sidebar__shipping {
+  padding-bottom: 25px;
+}
+
+.cart__content {
+  padding-left: 10px;
+}
+
+.team--deatils .team__thumb--info ul li .right, .team--one .team__social--list ul li a span, .footer__post--content, .footer__product--content, .sidebar .body ul li .content, .widget__help .widget__body ul li .content, .header--two .header__top .info__content {
+  padding-left: 15px;
+}
+
+.mrcart__head {
+  padding-bottom: 20px;
+}
+
+.review__form {
+  padding-top: 30px;
+}
+
+.singlecontent .countadd .cart-plus-minus, .testimonial__navigation .navi, .team--deatils .team__thumb--info ul li .right ul li, .service--one .service__pagination span, .filters-button-group .filter-btn, .pagination li .page-link {
+  margin: 5px;
+}
+
+.banner--one .banner__content p {
+  margin-bottom: 40px;
+}
+
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+html {
+  line-height: 1.15;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+/**
+ * Remove the margin in all browsers.
+ */
+body {
+  margin: 0;
+}
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+main {
+  display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+h1 {
+  font-size: 2em;
+}
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+hr {
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+a {
+  background-color: transparent;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  text-decoration: underline dotted;
+  /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+img {
+  border-style: none;
+}
+
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+button,
+input {
+  /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+button,
+select {
+  /* 1 */
+  text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+button,
+[type=button],
+[type=reset],
+[type=submit] {
+  -webkit-appearance: button;
+  appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+button::-moz-focus-inner,
+[type=button]::-moz-focus-inner,
+[type=reset]::-moz-focus-inner,
+[type=submit]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+button:-moz-focusring,
+[type=button]:-moz-focusring,
+[type=reset]:-moz-focusring,
+[type=submit]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+legend {
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+[type=checkbox],
+[type=radio] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+[type=number]::-webkit-inner-spin-button,
+[type=number]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+[type=search] {
+  -webkit-appearance: textfield;
+  appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+[type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+details {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+summary {
+  display: list-item;
+}
+
+/* Misc
+   ========================================================================== */
+/**
+ * Add the correct display in IE 10+.
+ */
+template {
+  display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+[hidden] {
+  display: none;
+}
+
+/**
+ * Set up a decent box model on the root element
+ */
+html {
+  box-sizing: border-box;
+}
+
+/**
+ * Make all elements from the DOM inherit from the parent box-sizing
+ * Since `*` has a specificity of 0, it does not override the `html` value
+ * making all elements inheriting from the root box-sizing value
+ * See: https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/
+ */
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+/**
+ * Basic typography style for copy text
+ */
+body {
+  color: #555555;
+  background-color: #ECF4FE;
+  font-size: 1rem;
+  line-height: 1.5;
+  font-family: "DM Sans", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", sans-serif;
+  color: #1F2A59;
+  line-height: 1.25;
+  font-weight: 700;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+  color: inherit;
+  font-family: inherit;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+h1 {
+  font-size: calc(1.425rem + 1.8vw);
+}
+@media (min-width: 1400px) {
+  h1 {
+    font-size: 3rem;
+  }
+}
+
+h2 {
+  font-size: calc(1.35rem + 1.0285714286vw);
+}
+@media (min-width: 1400px) {
+  h2 {
+    font-size: 2.25rem;
+  }
+}
+
+h3 {
+  font-size: calc(1.325rem + 0.7714285714vw);
+}
+@media (min-width: 1400px) {
+  h3 {
+    font-size: 2rem;
+  }
+}
+
+h4 {
+  font-size: calc(1.3125rem + 0.6428571429vw);
+}
+@media (min-width: 1400px) {
+  h4 {
+    font-size: 1.875rem;
+  }
+}
+
+h5 {
+  font-size: calc(1.275rem + 0.2571428571vw);
+}
+@media (min-width: 1400px) {
+  h5 {
+    font-size: 1.5rem;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1399px) {
+  h5 {
+    font-size: 20px;
+  }
+}
+
+h6 {
+  font-size: 1.25rem;
+}
+@media (min-width: 1200px) and (max-width: 1399px) {
+  h6 {
+    font-size: 16px;
+  }
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+a {
+  color: #555555;
+  text-decoration: none;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+@media not all and (pointer: coarse) {
+  a:hover {
+    color: #F7931E;
+  }
+}
+
+ul,
+ol {
+  padding-left: 0;
+}
+
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes floating {
+  0% {
+    transform: translate(0, 0px);
+  }
+  50% {
+    transform: translate(0, 15px);
+  }
+  100% {
+    transform: translate(0, 0px);
+  }
+}
+.fadeInDown {
+  animation-name: fade-in-down;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
+/*=========<<Margin & padding property Ulitilies start>>=========*/
+/*-------<< margin properties >>-------*/
+.m-10 {
+  margin: 10px;
+}
+
+.mt-10 {
+  margin-block-start: 10px;
+}
+
+.mb-10 {
+  margin-block-end: 10px;
+}
+
+.ms-10 {
+  margin-inline-start: 10px;
+}
+
+.me-10 {
+  margin-inline-end: 10px;
+}
+
+.my-10 {
+  margin-block: 10px;
+}
+
+.mx-10 {
+  margin-inline: 10px;
+}
+
+/*-------<< margin properties >>-------*/
+.m-15 {
+  margin: 15px;
+}
+
+.mt-15 {
+  margin-block-start: 15px;
+}
+
+.mb-15 {
+  margin-block-end: 15px;
+}
+
+.ms-15 {
+  margin-inline-start: 15px;
+}
+
+.me-15 {
+  margin-inline-end: 15px;
+}
+
+.my-15 {
+  margin-block: 15px;
+}
+
+.mx-15 {
+  margin-inline: 15px;
+}
+
+/*-------<< margin properties >>-------*/
+.m-20 {
+  margin: 20px;
+}
+
+.mt-20 {
+  margin-block-start: 20px;
+}
+
+.mb-20 {
+  margin-block-end: 20px;
+}
+
+.ms-20 {
+  margin-inline-start: 20px;
+}
+
+.me-20 {
+  margin-inline-end: 20px;
+}
+
+.my-20 {
+  margin-block: 20px;
+}
+
+.mx-20 {
+  margin-inline: 20px;
+}
+
+/*-------<< margin properties >>-------*/
+.m-25 {
+  margin: 25px;
+}
+
+.mt-25 {
+  margin-block-start: 25px;
+}
+
+.mb-25 {
+  margin-block-end: 25px;
+}
+
+.ms-25 {
+  margin-inline-start: 25px;
+}
+
+.me-25 {
+  margin-inline-end: 25px;
+}
+
+.my-25 {
+  margin-block: 25px;
+}
+
+.mx-25 {
+  margin-inline: 25px;
+}
+
+/*-------<< margin properties >>-------*/
+.m-30 {
+  margin: 30px;
+}
+
+.mt-30 {
+  margin-block-start: 30px;
+}
+
+.mb-30 {
+  margin-block-end: 30px;
+}
+
+.ms-30 {
+  margin-inline-start: 30px;
+}
+
+.me-30 {
+  margin-inline-end: 30px;
+}
+
+.my-30 {
+  margin-block: 30px;
+}
+
+.mx-30 {
+  margin-inline: 30px;
+}
+
+/*-------<< margin properties >>-------*/
+.m-35 {
+  margin: 35px;
+}
+
+.mt-35 {
+  margin-block-start: 35px;
+}
+
+.mb-35 {
+  margin-block-end: 35px;
+}
+
+.ms-35 {
+  margin-inline-start: 35px;
+}
+
+.me-35 {
+  margin-inline-end: 35px;
+}
+
+.my-35 {
+  margin-block: 35px;
+}
+
+.mx-35 {
+  margin-inline: 35px;
+}
+
+/*-------<< margin properties >>-------*/
+.m-40 {
+  margin: 40px;
+}
+
+.mt-40 {
+  margin-block-start: 40px;
+}
+
+.mb-40 {
+  margin-block-end: 40px;
+}
+
+.ms-40 {
+  margin-inline-start: 40px;
+}
+
+.me-40 {
+  margin-inline-end: 40px;
+}
+
+.my-40 {
+  margin-block: 40px;
+}
+
+.mx-40 {
+  margin-inline: 40px;
+}
+
+/*-------<< margin properties >>-------*/
+.m-45 {
+  margin: 45px;
+}
+
+.mt-45 {
+  margin-block-start: 45px;
+}
+
+.mb-45 {
+  margin-block-end: 45px;
+}
+
+.ms-45 {
+  margin-inline-start: 45px;
+}
+
+.me-45 {
+  margin-inline-end: 45px;
+}
+
+.my-45 {
+  margin-block: 45px;
+}
+
+.mx-45 {
+  margin-inline: 45px;
+}
+
+/*-------<< margin properties >>-------*/
+.m-50 {
+  margin: 50px;
+}
+
+.mt-50 {
+  margin-block-start: 50px;
+}
+
+.mb-50 {
+  margin-block-end: 50px;
+}
+
+.ms-50 {
+  margin-inline-start: 50px;
+}
+
+.me-50 {
+  margin-inline-end: 50px;
+}
+
+.my-50 {
+  margin-block: 50px;
+}
+
+.mx-50 {
+  margin-inline: 50px;
+}
+
+/*-------<< margin properties >>-------*/
+.m-55 {
+  margin: 55px;
+}
+
+.mt-55 {
+  margin-block-start: 55px;
+}
+
+.mb-55 {
+  margin-block-end: 55px;
+}
+
+.ms-55 {
+  margin-inline-start: 55px;
+}
+
+.me-55 {
+  margin-inline-end: 55px;
+}
+
+.my-55 {
+  margin-block: 55px;
+}
+
+.mx-55 {
+  margin-inline: 55px;
+}
+
+/*-------<< margin properties >>-------*/
+.m-60 {
+  margin: 60px;
+}
+
+.mt-60 {
+  margin-block-start: 60px;
+}
+
+.mb-60 {
+  margin-block-end: 60px;
+}
+
+.ms-60 {
+  margin-inline-start: 60px;
+}
+
+.me-60 {
+  margin-inline-end: 60px;
+}
+
+.my-60 {
+  margin-block: 60px;
+}
+
+.mx-60 {
+  margin-inline: 60px;
+}
+
+/*-------<< margin properties >>-------*/
+.m-65 {
+  margin: 65px;
+}
+
+.mt-65 {
+  margin-block-start: 65px;
+}
+
+.mb-65 {
+  margin-block-end: 65px;
+}
+
+.ms-65 {
+  margin-inline-start: 65px;
+}
+
+.me-65 {
+  margin-inline-end: 65px;
+}
+
+.my-65 {
+  margin-block: 65px;
+}
+
+.mx-65 {
+  margin-inline: 65px;
+}
+
+/*-------<< margin properties >>-------*/
+.m-70 {
+  margin: 70px;
+}
+
+.mt-70 {
+  margin-block-start: 70px;
+}
+
+.mb-70 {
+  margin-block-end: 70px;
+}
+
+.ms-70 {
+  margin-inline-start: 70px;
+}
+
+.me-70 {
+  margin-inline-end: 70px;
+}
+
+.my-70 {
+  margin-block: 70px;
+}
+
+.mx-70 {
+  margin-inline: 70px;
+}
+
+/*-------<< margin properties >>-------*/
+.m-75 {
+  margin: 75px;
+}
+
+.mt-75 {
+  margin-block-start: 75px;
+}
+
+.mb-75 {
+  margin-block-end: 75px;
+}
+
+.ms-75 {
+  margin-inline-start: 75px;
+}
+
+.me-75 {
+  margin-inline-end: 75px;
+}
+
+.my-75 {
+  margin-block: 75px;
+}
+
+.mx-75 {
+  margin-inline: 75px;
+}
+
+/*-------<< margin properties >>-------*/
+.m-80 {
+  margin: 80px;
+}
+
+.mt-80 {
+  margin-block-start: 80px;
+}
+
+.mb-80 {
+  margin-block-end: 80px;
+}
+
+.ms-80 {
+  margin-inline-start: 80px;
+}
+
+.me-80 {
+  margin-inline-end: 80px;
+}
+
+.my-80 {
+  margin-block: 80px;
+}
+
+.mx-80 {
+  margin-inline: 80px;
+}
+
+/*------<< Paddings >>---------*/
+.p-10 {
+  padding: 10px;
+}
+
+.pt-10 {
+  padding-block-start: 10px;
+}
+
+.pb-10 {
+  padding-block-end: 10px;
+}
+
+.ps-10 {
+  padding-inline-start: 10px;
+}
+
+.pe-10 {
+  padding-inline-start: 10px;
+}
+
+.py-10 {
+  padding-block: 10px;
+}
+
+.px-10 {
+  padding-inline: 10px;
+}
+
+.p-15 {
+  padding: 15px;
+}
+
+.pt-15 {
+  padding-block-start: 15px;
+}
+
+.pb-15 {
+  padding-block-end: 15px;
+}
+
+.ps-15 {
+  padding-inline-start: 15px;
+}
+
+.pe-15 {
+  padding-inline-start: 15px;
+}
+
+.py-15 {
+  padding-block: 15px;
+}
+
+.px-15 {
+  padding-inline: 15px;
+}
+
+.p-20 {
+  padding: 20px;
+}
+
+.pt-20 {
+  padding-block-start: 20px;
+}
+
+.pb-20 {
+  padding-block-end: 20px;
+}
+
+.ps-20 {
+  padding-inline-start: 20px;
+}
+
+.pe-20 {
+  padding-inline-start: 20px;
+}
+
+.py-20 {
+  padding-block: 20px;
+}
+
+.px-20 {
+  padding-inline: 20px;
+}
+
+.p-25 {
+  padding: 25px;
+}
+
+.pt-25 {
+  padding-block-start: 25px;
+}
+
+.pb-25 {
+  padding-block-end: 25px;
+}
+
+.ps-25 {
+  padding-inline-start: 25px;
+}
+
+.pe-25 {
+  padding-inline-start: 25px;
+}
+
+.py-25 {
+  padding-block: 25px;
+}
+
+.px-25 {
+  padding-inline: 25px;
+}
+
+.p-30 {
+  padding: 30px;
+}
+
+.pt-30 {
+  padding-block-start: 30px;
+}
+
+.pb-30 {
+  padding-block-end: 30px;
+}
+
+.ps-30 {
+  padding-inline-start: 30px;
+}
+
+.pe-30 {
+  padding-inline-start: 30px;
+}
+
+.py-30 {
+  padding-block: 30px;
+}
+
+.px-30 {
+  padding-inline: 30px;
+}
+
+.p-35 {
+  padding: 35px;
+}
+
+.pt-35 {
+  padding-block-start: 35px;
+}
+
+.pb-35 {
+  padding-block-end: 35px;
+}
+
+.ps-35 {
+  padding-inline-start: 35px;
+}
+
+.pe-35 {
+  padding-inline-start: 35px;
+}
+
+.py-35 {
+  padding-block: 35px;
+}
+
+.px-35 {
+  padding-inline: 35px;
+}
+
+.p-40 {
+  padding: 40px;
+}
+
+.pt-40 {
+  padding-block-start: 40px;
+}
+
+.pb-40 {
+  padding-block-end: 40px;
+}
+
+.ps-40 {
+  padding-inline-start: 40px;
+}
+
+.pe-40 {
+  padding-inline-start: 40px;
+}
+
+.py-40 {
+  padding-block: 40px;
+}
+
+.px-40 {
+  padding-inline: 40px;
+}
+
+.p-45 {
+  padding: 45px;
+}
+
+.pt-45 {
+  padding-block-start: 45px;
+}
+
+.pb-45 {
+  padding-block-end: 45px;
+}
+
+.ps-45 {
+  padding-inline-start: 45px;
+}
+
+.pe-45 {
+  padding-inline-start: 45px;
+}
+
+.py-45 {
+  padding-block: 45px;
+}
+
+.px-45 {
+  padding-inline: 45px;
+}
+
+.p-50 {
+  padding: 50px;
+}
+
+.pt-50 {
+  padding-block-start: 50px;
+}
+
+.pb-50 {
+  padding-block-end: 50px;
+}
+
+.ps-50 {
+  padding-inline-start: 50px;
+}
+
+.pe-50 {
+  padding-inline-start: 50px;
+}
+
+.py-50 {
+  padding-block: 50px;
+}
+
+.px-50 {
+  padding-inline: 50px;
+}
+
+.p-55 {
+  padding: 55px;
+}
+
+.pt-55 {
+  padding-block-start: 55px;
+}
+
+.pb-55 {
+  padding-block-end: 55px;
+}
+
+.ps-55 {
+  padding-inline-start: 55px;
+}
+
+.pe-55 {
+  padding-inline-start: 55px;
+}
+
+.py-55 {
+  padding-block: 55px;
+}
+
+.px-55 {
+  padding-inline: 55px;
+}
+
+.p-60 {
+  padding: 60px;
+}
+
+.pt-60 {
+  padding-block-start: 60px;
+}
+
+.pb-60 {
+  padding-block-end: 60px;
+}
+
+.ps-60 {
+  padding-inline-start: 60px;
+}
+
+.pe-60 {
+  padding-inline-start: 60px;
+}
+
+.py-60 {
+  padding-block: 60px;
+}
+
+.px-60 {
+  padding-inline: 60px;
+}
+
+.p-65 {
+  padding: 65px;
+}
+
+.pt-65 {
+  padding-block-start: 65px;
+}
+
+.pb-65 {
+  padding-block-end: 65px;
+}
+
+.ps-65 {
+  padding-inline-start: 65px;
+}
+
+.pe-65 {
+  padding-inline-start: 65px;
+}
+
+.py-65 {
+  padding-block: 65px;
+}
+
+.px-65 {
+  padding-inline: 65px;
+}
+
+.p-70 {
+  padding: 70px;
+}
+
+.pt-70 {
+  padding-block-start: 70px;
+}
+
+.pb-70 {
+  padding-block-end: 70px;
+}
+
+.ps-70 {
+  padding-inline-start: 70px;
+}
+
+.pe-70 {
+  padding-inline-start: 70px;
+}
+
+.py-70 {
+  padding-block: 70px;
+}
+
+.px-70 {
+  padding-inline: 70px;
+}
+
+.p-75 {
+  padding: 75px;
+}
+
+.pt-75 {
+  padding-block-start: 75px;
+}
+
+.pb-75 {
+  padding-block-end: 75px;
+}
+
+.ps-75 {
+  padding-inline-start: 75px;
+}
+
+.pe-75 {
+  padding-inline-start: 75px;
+}
+
+.py-75 {
+  padding-block: 75px;
+}
+
+.px-75 {
+  padding-inline: 75px;
+}
+
+.p-80 {
+  padding: 80px;
+}
+
+.pt-80 {
+  padding-block-start: 80px;
+}
+
+.pb-80 {
+  padding-block-end: 80px;
+}
+
+.ps-80 {
+  padding-inline-start: 80px;
+}
+
+.pe-80 {
+  padding-inline-start: 80px;
+}
+
+.py-80 {
+  padding-block: 80px;
+}
+
+.px-80 {
+  padding-inline: 80px;
+}
+
+/*=========<<Margin property extends end>>=========*/
+.gradient-text--theme {
+  background: -webkit-linear-gradient(#F7931E, #1F2A59);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -ms-background-clip: text;
+  -o-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  -ms-text-fill-color: transparent;
+  -o-text-fill-color: transparent;
+  text-fill-color: transparent;
+}
+
+.padding-top {
+  padding-block-start: 80px;
+}
+@media (min-width: 1200px) {
+  .padding-top {
+    padding-block-start: 120px;
+  }
+}
+.padding-top--2x {
+  padding-block-start: 220px;
+}
+@media (min-width: 992px) {
+  .padding-top--2x {
+    padding-block-start: 240px;
+  }
+}
+
+.padding-bottom {
+  padding-block-end: 80px;
+}
+@media (min-width: 1200px) {
+  .padding-bottom {
+    padding-block-end: 120px;
+  }
+}
+
+.bg--section-color {
+  background-color: #FEFBF2 !important;
+}
+.bg--cover {
+  background-size: cover;
+  background-position: center;
+}
+.bg--contain {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+}
+
+/*================*** Header Section Start Here     ***===================*/
+.header__top {
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.header__bottom {
+  padding-block: 22px;
+}
+.header__bottom.header-fixed {
+  position: fixed;
+  top: 0;
+  z-index: 999;
+  box-shadow: 0 0 3px rgba(31, 42, 89, 0.2);
+}
+@media (max-width: 575px) {
+  .header__bottom .area .logo {
+    max-width: 140px;
+  }
+}
+@media (min-width: 1200px) {
+  .header__bottom .area .logo {
+    position: relative;
+    z-index: 99;
+  }
+}
+@media (max-width: 1199px) {
+  .header__bottom .area .menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    left: 0;
+    background-color: #fff;
+    z-index: 9999;
+    padding-bottom: 30px;
+    height: 400px;
+    overflow-y: auto;
+  }
+  .header__bottom .area .menu.active {
+    display: inherit;
+    padding-inline: 30px;
+  }
+}
+@media (max-width: 1199px) {
+  .header__bottom .area .menu ul li {
+    display: block;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  }
+}
+@media (min-width: 1200px) {
+  .header__bottom .area .menu ul li:hover > ul {
+    opacity: 1;
+    top: 100%;
+    visibility: visible;
+  }
+}
+.header__bottom .area .menu ul li a {
+  padding: 15px 30px;
+}
+.header__bottom .area .menu ul li ul {
+  background-color: #1F2A59;
+}
+@media (max-width: 1199px) {
+  .header__bottom .area .menu ul li ul {
+    display: none;
+  }
+}
+@media (min-width: 1200px) {
+  .header__bottom .area .menu ul li ul {
+    position: absolute;
+    width: 220px;
+    top: calc(100% + 30px);
+    left: 0;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    opacity: 0;
+    z-index: 999;
+    box-shadow: 0 0 3px rgba(247, 147, 30, 0.1);
+    visibility: hidden;
+  }
+}
+.header__bottom .area .menu ul li ul li.menu-item-has-children a::after, .header__bottom .area .menu ul li ul li.menu-item-has-children a::before {
+  background-color: #fff;
+}
+.header__bottom .area .menu ul li ul li.menu-item-has-children a::before {
+  right: 24px;
+}
+.header__bottom .area .menu ul li ul li.menu-item-has-children a::after {
+  right: 20px;
+}
+.header__bottom .area .menu ul li ul li a {
+  font-size: 95%;
+  padding: 15px 30px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+.header__bottom .area .menu ul li ul li a:hover, .header__bottom .area .menu ul li ul li a.active {
+  background-color: #F7931E;
+  color: #fff;
+}
+.header__bottom .area .menu ul li ul li a:hover::after, .header__bottom .area .menu ul li ul li a:hover::before, .header__bottom .area .menu ul li ul li a.active::after, .header__bottom .area .menu ul li ul li a.active::before {
+  background-color: #fff;
+}
+@media (min-width: 1200px) {
+  .header__bottom .area .menu ul li ul li ul {
+    left: 100%;
+    top: 0 !important;
+  }
+}
+.header__bottom .area .menu .search_cart ul li {
+  padding: 10px 15px;
+}
+.header__bottom .area .menu .search_cart ul li::after {
+  width: 1px;
+  height: 100px;
+  left: 0;
+  top: -22px;
+  border-right: 1px solid rgba(247, 147, 30, 0.1);
+}
+.header__bottom .area .menu .search_cart ul li:last-child::before {
+  width: 1px;
+  height: 100px;
+  right: 0;
+  top: -22px;
+  border-right: 1px solid rgba(247, 147, 30, 0.1);
+}
+.header__bottom .area .menu .search_cart ul li span {
+  top: 0px;
+  right: 10px;
+  font-size: 15px;
+}
+@media (min-width: 1400px) {
+  .header--one .container-fluid {
+    padding-inline: 140px;
+  }
+}
+@media (max-width: 1199px) {
+  .header--one .header__bottom .area .menu ul li {
+    border-bottom: 1px solid rgba(31, 42, 89, 0.1);
+  }
+}
+.header--one .header__top {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  background-color: #29ABE2;
+}
+@media (max-width: 1199px) {
+  .header--one .header__top {
+    display: none;
+  }
+}
+@media (max-width: 1199px) {
+  .header--one .header__top .info {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  }
+}
+@media (max-width: 1199px) {
+  .header--one .header__top .info ul {
+    text-align: center;
+  }
+}
+.header--one .header__top .info ul li {
+  padding: 10px 25px;
+  border-left: 1px solid rgba(255, 255, 255, 0.1);
+}
+@media (max-width: 1199px) {
+  .header--one .header__top .info ul li:first-child {
+    border-left: none;
+  }
+}
+@media (max-width: 575px) {
+  .header--one .header__top .info ul li {
+    border: none;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .header--one .header__top .info ul li img {
+    display: none;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .header--one .header__top .info ul li img {
+    display: none;
+  }
+}
+@media (max-width: 1199px) {
+  .header--one .header__top .social {
+    text-align: center;
+  }
+}
+.header--one .header__top .social li {
+  padding: 10px 15px;
+  border-left: 1px solid rgba(255, 255, 255, 0.1);
+}
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .header--one .header__top .social li {
+    padding: 10px 14px;
+  }
+}
+@media (max-width: 1199px) {
+  .header--one .header__top .social li:first-child {
+    border-left: none;
+  }
+}
+@media (max-width: 575px) {
+  .header--one .header__top .social li {
+    border: none;
+  }
+}
+.header--one .header__top .social li a i {
+  width: 24px;
+  height: 24px;
+  line-height: 24px;
+  margin-right: 3px;
+  color: #29ABE2;
+  font-size: 0.625rem;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  border-radius: 100%;
+}
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .header--one .header__top .social li a i {
+    display: none;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .header--one .header__top .social li a i {
+    display: none;
+  }
+}
+.header--one .header__bottom {
+  background: #ECF4FE;
+}
+@media (min-width: 1200px) {
+  .header--one .header__bottom .menu .lab-btn {
+    margin-top: 0;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .header--one .header__bottom .menu .lab-btn {
+    display: none;
+  }
+}
+.header--one .header__bar span {
+  background-color: #8CC63F;
+}
+.header--two .header__top {
+  padding-block: 10px;
+}
+@media (min-width: 1200px) {
+  .header--two .header__top .info ul {
+    justify-content: flex-end;
+  }
+}
+.header--two .header__top .info ul li {
+  padding: 15px 30px;
+}
+.header--two .header__top .info__icon {
+  width: 36px;
+}
+.header--two .header__top .info__content {
+  width: calc(100% - 36px);
+}
+.header--two .header__top .header__bar span {
+  background: #1F2A59;
+}
+.header--two .header__top .header__cartcount i, .header--two .header__top .header__cartcount span {
+  color: #1F2A59;
+}
+.header--two .header__bottom {
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+@media (max-width: 1199px) {
+  .header--two .header__bottom {
+    padding: 0;
+  }
+  .header--two .header__bottom.header-fixed {
+    position: static !important;
+  }
+}
+@media (max-width: 1199px) {
+  .header--two .header__bottom .area .main-menu {
+    position: relative;
+  }
+  .header--two .header__bottom .area .main-menu .menu {
+    background: #8CC63F;
+  }
+}
+@media (min-width: 1200px) {
+  .header--two .header__bottom .area .main-menu .menu .lab-btn {
+    margin-top: 0;
+  }
+}
+.header--two .header__bottom .area .main-menu .menu .lab-btn:hover {
+  background: #29ABE2;
+}
+.header__bar {
+  width: 25px;
+  height: 20px;
+}
+.header__bar span {
+  height: 3px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: #fff;
+  left: 0;
+}
+.header__bar span:first-child {
+  top: 0;
+}
+.header__bar span:nth-child(2) {
+  top: 50%;
+  transform: translateY(-50%);
+}
+.header__bar span:last-child {
+  bottom: 0;
+}
+.header__bar.active span:first-child {
+  -webkit-transform: rotate(45deg) translate(3px, 9px);
+  -ms-transform: rotate(45deg) translate(3px, 9px);
+  transform: rotate(45deg) translate(3px, 9px);
+}
+.header__bar.active span:nth-child(2) {
+  opacity: 0;
+}
+.header__bar.active span:last-child {
+  -webkit-transform: rotate(-45deg) translate(3px, -9px);
+  -ms-transform: rotate(-45deg) translate(3px, -9px);
+  transform: rotate(-45deg) translate(3px, -9px);
+}
+@media (max-width: 575px) {
+  .header__bar {
+    width: 15px;
+    height: 16px;
+  }
+  .header__bar span {
+    height: 2px;
+    width: 20px;
+  }
+  .header__bar.active span:first-child {
+    -webkit-transform: rotate(45deg) translate(4px, 6px);
+    -ms-transform: rotate(45deg) translate(4px, 6px);
+    transform: rotate(45deg) translate(4px, 6px);
+  }
+  .header__bar.active span:nth-child(2) {
+    opacity: 0;
+  }
+  .header__bar.active span:last-child {
+    -webkit-transform: rotate(-45deg) translate(4px, -6px);
+    -ms-transform: rotate(-45deg) translate(4px, -6px);
+    transform: rotate(-45deg) translate(4px, -6px);
+  }
+}
+.header__ellepsis {
+  font-size: 20px;
+  margin-left: 25px;
+}
+.header__ellepsis i {
+  color: #8CC63F;
+}
+.header__cartcount i {
+  color: #fff;
+}
+.header__cartcount span {
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  top: -20px;
+  right: -10px;
+  font-size: 12px;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  border-radius: 100%;
+}
+
+.menu-item-has-children > a::after {
+  top: 50%;
+  transform: translateY(-50%);
+  right: 25px;
+  width: 10px;
+  height: 2px;
+  background-color: #1F2A59;
+}
+.menu-item-has-children > a::before {
+  top: 50%;
+  transform: translateY(-50%);
+  right: 29px;
+  width: 2px;
+  height: 10px;
+  background-color: #1F2A59;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+@media (min-width: 1200px) {
+  .menu-item-has-children > a::after {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+    width: 10px;
+    height: 2px;
+    background-color: #1F2A59;
+  }
+  .menu-item-has-children > a::before {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 4px;
+    width: 2px;
+    height: 10px;
+    background-color: #1F2A59;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+}
+@media (min-width: 1200px) {
+  .menu-item-has-children:hover > a:before {
+    transform: translate(-50%, -50%) rotate(90deg);
+    opacity: 0;
+  }
+}
+@media (max-width: 1199px) {
+  .menu-item-has-children.open > a:before {
+    transform: translate(-50%, -50%) rotate(90deg);
+    opacity: 0;
+  }
+}
+
+.search {
+  opacity: 0;
+  z-index: -1;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.search.active {
+  opacity: 1;
+  z-index: 99999;
+}
+.search__close {
+  top: 30px;
+  right: 30px;
+  font-size: 30px;
+}
+.search__area form {
+  width: 280px;
+}
+@media (min-width: 576px) {
+  .search__area form {
+    width: 550px;
+  }
+}
+.search__area form input {
+  border-color: rgba(255, 255, 255, 0.8);
+  width: calc(100% - 60px);
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.search__area form input::placeholder {
+  color: rgba(31, 42, 89, 0.5);
+}
+.search__area form button {
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  background: #F7931E;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+.mrcart {
+  width: 320px;
+  height: 100vh;
+  overflow-y: auto;
+  z-index: 99999;
+  left: -320px;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.mrcart.active {
+  left: 0;
+}
+.mrcart__head {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+.mrcart__body ul li {
+  padding-block: 20px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+.mrcart__footer ul li a {
+  padding: 10px 25px;
+  margin: 5px;
+  font-size: 12px;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.mrcart__close {
+  font-size: 28px;
+}
+.mrcart__thumb {
+  width: 100px;
+}
+.mrcart__thumb a img {
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+.mrcart__itemclose {
+  right: 15px;
+  top: 15px;
+  font-size: 18px;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.contact--one {
+  background: #FEFBF2;
+}
+.contact--one .contact__area {
+  background: url(../images/contact/bg.jpg) no-repeat;
+  background-position: left;
+  background-size: cover;
+  padding: 30px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+@media (min-width: 576px) {
+  .contact--one .contact__area {
+    padding: 40px;
+  }
+}
+.contact--one .contact__area::after {
+  width: 40px;
+  height: 40px;
+  top: calc(100% + 5px);
+  left: calc(100% + 5px);
+  background: url(../images/contact/bg-shape2.png) no-repeat;
+}
+@media (min-width: 1200px) {
+  .contact--one .contact__area::after {
+    display: block;
+  }
+}
+.contact--two {
+  background-repeat: no-repeat;
+}
+.contact--two .section__header, .contact--two .section__wrapper {
+  z-index: 1;
+}
+.contact--two .contact__area {
+  transform: translateY(-40px);
+  padding: calc(1.375rem + 1.2857142857vw);
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+@media (min-width: 1400px) {
+  .contact--two .contact__area {
+    padding: 2.5rem;
+  }
+}
+.contact--two .contact__area::after {
+  width: 50%;
+  height: 100%;
+  top: 0;
+  right: 0;
+}
+@media (min-width: 992px) {
+  .contact--two .contact__area::after {
+    background: #29ABE2;
+  }
+}
+.contact--two .contact__area::before {
+  width: 50%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+@media (min-width: 992px) {
+  .contact--two .contact__area::before {
+    background: url(../images/contact/bg-shape.png) no-repeat;
+  }
+}
+.contact--two .contact__thumb {
+  z-index: 1;
+  animation: lab_run_top_y 5s linear infinite;
+}
+.contact--three .contact__item {
+  padding: 60px 30px;
+}
+.widget__service {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+.widget__head {
+  padding: 25px 30px;
+  border-bottom: 1px solid rgba(31, 42, 89, 0.1);
+}
+.widget__body ul li:last-child a {
+  border-bottom: none;
+}
+.widget__body ul li a {
+  padding: 20px 30px;
+  border-bottom: 1px solid rgba(31, 42, 89, 0.1);
+}
+.widget__brochure {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+.widget__help {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+.widget__help .widget__body ul li {
+  padding-block: 20px;
+  border-bottom: 1px solid rgba(31, 42, 89, 0.1);
+}
+.widget__help .widget__body ul li:last-child {
+  border-bottom: none;
+}
+.widget__help .widget__body ul li .icon {
+  width: 40px;
+}
+.widget__help .widget__body ul li .content {
+  width: calc(100% - 40px);
+}
+.sidebar .head {
+  border-bottom: 1px solid #F2F6F9;
+}
+@media (min-width: 576px) {
+  .sidebar .head {
+    padding-inline: 30px;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .sidebar .head h6 {
+    font-size: 20px;
+  }
+}
+.sidebar .body ul li {
+  padding: 20px 20px;
+  border-bottom: 1px solid #F2F6F9;
+}
+@media (min-width: 576px) {
+  .sidebar .body ul li {
+    padding-inline: 30px;
+  }
+}
+.sidebar .body ul li:last-child {
+  border-bottom: none;
+}
+.sidebar .body ul li:hover .content h5 a {
+  color: #F7931E;
+}
+.sidebar .body ul li .thumb {
+  width: 40px;
+}
+.sidebar .body ul li .content {
+  width: calc(100% - 40px);
+}
+.sidebar .body ul li .content h5 {
+  font-size: 1.125rem;
+}
+.sidebar__author {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+.sidebar__author .thumb {
+  width: 200px !important;
+  height: 200px;
+  border-radius: 100%;
+  margin-inline: auto;
+}
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .sidebar__author .content h6 {
+    font-size: 20px;
+  }
+}
+.sidebar__author .content ul li a {
+  width: 36px;
+  height: 36px;
+  line-height: 36px;
+  margin: 2px;
+  font-size: 0.8125rem;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+@media (min-width: 576px) {
+  .sidebar__author .body .thumb {
+    width: 120px !important;
+    height: 120px;
+    margin-bottom: 0;
+  }
+}
+.sidebar__author .body .thumb img {
+  object-fit: cover;
+}
+@media (min-width: 576px) {
+  .sidebar__author .body .content {
+    width: calc(100% - 135px);
+    padding-left: 15px;
+  }
+}
+.sidebar__search {
+  border: 1px solid #F2F6F9;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+@media (min-width: 576px) {
+  .sidebar__search .body {
+    padding: 30px;
+  }
+}
+.sidebar__search form input {
+  padding-right: 40px;
+}
+.sidebar__search form button {
+  top: 50%;
+  right: 10px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.sidebar__recentpost {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+.sidebar__recentpost .body ul li:hover .thumb img {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+.sidebar__recentpost .body ul li .thumb {
+  width: 80px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+.sidebar__recentpost .body ul li .content {
+  width: calc(100% - 80px);
+}
+.sidebar__recentpost .body ul li .content h6 {
+  font-size: 1rem;
+}
+.sidebar__categorie {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+.sidebar__categorie .body ul li {
+  margin: 0;
+}
+.sidebar__tags {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+@media (min-width: 576px) {
+  .sidebar__tags .body {
+    padding: 30px;
+  }
+}
+.sidebar__tags .body ul {
+  padding-block: 0;
+}
+.sidebar__tags .body ul li {
+  display: inline-block;
+  padding: 0;
+  border: none;
+  margin-block: 0 !important;
+}
+.sidebar__tags .body ul li a {
+  padding: 8px 15px;
+  border: 1px solid #F2F6F9;
+  margin: 5px;
+}
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .sidebar__tags .body ul li a {
+    font-size: 14px;
+    padding: 5px 10px;
+  }
+}
+.sidebar__tags .body ul li a:hover {
+  background-color: #F7931E;
+  border-color: #F7931E;
+}
+.sidebar__comment {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+.sidebar__comment .body ul li {
+  align-items: flex-start;
+}
+.sidebar__comment .body ul li .thumb {
+  width: 80px;
+  margin-bottom: 15px;
+}
+@media (min-width: 576px) {
+  .sidebar__comment .body ul li .thumb {
+    width: 80px !important;
+    margin-bottom: 0;
+  }
+}
+.sidebar__comment .body ul li .thumb img {
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+.sidebar__comment .body ul li .content {
+  width: 100%;
+  padding-left: 0;
+}
+@media (min-width: 576px) {
+  .sidebar__comment .body ul li .content {
+    width: calc(100% - 80px);
+    padding-left: 15px;
+  }
+}
+.sidebar__comment .body ul li .content__top {
+  gap: 10px;
+}
+.sidebar__comment .body ul li .content__top .name h6 {
+  font-size: 1rem;
+}
+@media (max-width: 575px) {
+  .sidebar__comment .body ul li .content .reply {
+    margin: 10px 0 15px;
+  }
+}
+.sidebar__comment .body ul li .content .reply a {
+  padding: 5px 15px;
+  background-color: #F7931E;
+  font-size: 0.875rem;
+}
+.sidebar__comment .body ul li ul li {
+  border-top: 1px solid #F2F6F9;
+  border-bottom: none;
+}
+@media (max-width: 575px) {
+  .sidebar__comment .body ul li ul li {
+    padding-inline: 0;
+  }
+}
+.sidebar__comment .body ul li ul li:last-child {
+  margin-bottom: 0;
+}
+.sidebar__commentForm {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+.sidebar__commentForm form input, .sidebar__commentForm form textarea {
+  border: 1px solid rgba(31, 42, 89, 0.1);
+}
+@media (min-width: 576px) {
+  .sidebar__commentForm form input {
+    width: calc(50% - 15px);
+  }
+}
+.sidebar__relatedpost {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+@media (min-width: 576px) {
+  .sidebar__relatedpost .body {
+    padding: 30px;
+  }
+}
+.sidebar__relatedpost .body ul {
+  gap: 15px;
+}
+.sidebar__relatedpost .body ul li {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+@media (min-width: 576px) {
+  .sidebar__relatedpost .body ul li {
+    width: calc(50% - 15px);
+  }
+}
+.sidebar__relatedpost .body ul li:hover .thumb img {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+.sidebar__relatedpost .body ul li .thumb {
+  width: 100px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+.sidebar__relatedpost .body ul li .content {
+  width: calc(100% - 100px);
+}
+.sidebar__relatedpost .body ul li .content h6 {
+  font-size: 1rem;
+}
+.sidebar__recentproduct {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+.sidebar__recentproduct .body ul li:hover .thumb img {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+.sidebar__recentproduct .body ul li .thumb {
+  width: 70px;
+}
+.sidebar__recentproduct .body ul li .content {
+  width: calc(100% - 70px);
+}
+.sidebar__recentproduct .body ul li .content h6 {
+  font-size: 1rem;
+}
+.sidebar__recentproduct .body ul li .content .rating span {
+  font-size: 0.75rem;
+}
+.sidebar__cartamount {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+.sidebar__subtotal {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  padding: 20px 30px;
+  border-bottom: 1px solid rgba(31, 42, 89, 0.1);
+}
+.sidebar__shipping {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+.sidebar__radiolist .form-check {
+  padding-block: 5px;
+}
+.sidebar__radiolist .form-check input {
+  box-shadow: none;
+}
+.sidebar__radiolist .form-check input :focus {
+  outline: none;
+}
+.sidebar__radiolist .form-check input:checked {
+  background-color: #F7931E;
+  border-color: #F7931E;
+  border-width: 2px;
+  box-shadow: 0 0 5px rgba(31, 42, 89, 0.1);
+}
+.sidebar__calculate {
+  padding-inline: 30px;
+}
+.sidebar__calculate select, .sidebar__calculate input {
+  border: 1px solid #F2F6F9;
+}
+.sidebar__calculate button {
+  padding: 10px 30px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.footer__top {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  padding: calc(1.625rem + 3.8571428571vw) 0;
+}
+@media (min-width: 1400px) {
+  .footer__top {
+    padding: 5rem 0;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .footer__top--title h2 {
+    font-size: 30px;
+  }
+}
+.footer__top--form form {
+  gap: 15px;
+  padding: 5px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+@media (min-width: 576px) {
+  .footer__top--form form {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+  }
+}
+.footer__top--form form input {
+  width: 100%;
+  color: #fff;
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+@media (min-width: 576px) {
+  .footer__top--form form input {
+    width: calc(100% - 215px);
+    border: none;
+  }
+}
+.footer__top--form form input::placeholder {
+  color: rgba(255, 255, 255, 0.8);
+}
+.footer__top--form form button {
+  border: 0;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+@media (min-width: 576px) {
+  .footer__top--form form button {
+    width: 200px;
+  }
+}
+.footer__top--form form button:hover {
+  background: #F7931E;
+}
+.footer__middile {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  padding: calc(1.75rem + 5.1428571429vw) 0;
+}
+@media (min-width: 1400px) {
+  .footer__middile {
+    padding: 6.25rem 0;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .footer__middile .col-12:last-child {
+    display: none;
+  }
+}
+.footer__bottom {
+  padding-block: 30px;
+}
+.footer__title h5 {
+  margin-bottom: calc(1.3125rem + 0.6428571429vw);
+}
+@media (min-width: 1400px) {
+  .footer__title h5 {
+    margin-bottom: 1.875rem;
+  }
+}
+.footer__about p {
+  line-height: 1.5;
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .footer__about p {
+    max-width: 350px;
+  }
+}
+.footer__about ul {
+  gap: 10px;
+}
+.footer__about ul li {
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+}
+.footer__about ul li:hover span {
+  display: inherit;
+}
+@media (max-width: 1199px) {
+  .footer__about ul li:hover span {
+    display: none;
+  }
+}
+.footer__about ul li a {
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+}
+.footer__about ul li i {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 100%;
+}
+.footer__about ul li span {
+  padding-right: 15px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.footer__product--thumb {
+  width: 70px;
+  height: 70px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+.footer__product--thumb img {
+  object-fit: cover;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+.footer__product--content {
+  width: calc(100% - 70px);
+}
+.footer__product--content h6 {
+  font-size: 16px;
+}
+.footer__product--content h6 a {
+  line-height: 1.5;
+}
+.footer__product ul li {
+  padding-block: 15px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+.footer__product ul li:first-child {
+  padding-top: 0;
+}
+.footer__product ul li:last-child {
+  border-bottom: none;
+}
+.footer__product ul li:hover .footer__product--thumb img {
+  -webkit-transform: scale(1.4);
+  -ms-transform: scale(1.4);
+  transform: scale(1.4);
+}
+.footer__product--rating i {
+  color: #F7931E;
+  font-size: 0.875rem;
+}
+.footer__post--thumb {
+  width: 70px;
+  height: 70px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+.footer__post--thumb img {
+  object-fit: cover;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+.footer__post--content {
+  width: calc(100% - 70px);
+}
+.footer__post--content h6 {
+  font-size: 16px;
+}
+.footer__post--content h6 a {
+  line-height: 1.5;
+}
+.footer__post ul li {
+  padding-block: 15px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+.footer__post ul li:first-child {
+  padding-top: 0;
+}
+.footer__post ul li:last-child {
+  border-bottom: none;
+}
+.footer__post ul li:hover .footer__post--thumb img {
+  -webkit-transform: scale(1.4);
+  -ms-transform: scale(1.4);
+  transform: scale(1.4);
+}
+.footer__gallery ul {
+  gap: 15px;
+}
+.footer__gallery ul li {
+  width: 70px;
+}
+.footer__gallery ul li a {
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+.footer__gallery ul li:hover a img {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.custom-btn {
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  border: 1px solid #F7931E;
+  border-radius: 0.25rem;
+  background-color: #F7931E;
+  color: #1F2A59;
+  padding-inline: 2rem;
+  line-height: 52px;
+}
+.custom-btn:before, .custom-btn:after {
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.custom-btn:before {
+  right: calc(-60px - 5px);
+  border-right: calc(60px + 5px) solid transparent;
+  border-bottom: calc(60px + 5px) solid #1F2A59;
+  transform: translateX(-100%);
+}
+.custom-btn:after {
+  left: calc(-60px - 5px);
+  border-left: calc(60px + 5px) solid transparent;
+  border-top: calc(60px + 5px) solid #1F2A59;
+  transform: translateX(100%);
+}
+.custom-btn:hover {
+  color: #fff;
+  border-color: #1F2A59;
+}
+.custom-btn:hover:before {
+  transform: translateX(-49%);
+}
+.custom-btn:hover:after {
+  transform: translateX(49%);
+}
+.custom-btn span {
+  position: inherit;
+  z-index: 1;
+}
+.custom-btn--bordered {
+  background-color: transparent;
+  color: #1F2A59;
+}
+.custom-btn--bordered:hover {
+  color: #1F2A59;
+  border-color: #F7931E;
+}
+.custom-btn--bordered:hover::before {
+  border-bottom-color: #F7931E;
+}
+.custom-btn--bordered:hover::after {
+  border-top-color: #F7931E;
+}
+.custom-btn--sm {
+  padding-inline: 1.5rem;
+  height: 56px;
+  line-height: 56px;
+}
+
+.text-btn {
+  color: #1F2A59;
+  font-weight: 600;
+}
+.text-btn span {
+  color: inherit;
+  font-weight: inherit;
+}
+
+.fb-btn {
+  background-color: #3b5998;
+  border-radius: 0.25rem;
+  color: #fff;
+  padding: 0.85rem 1.75rem;
+}
+.fb-btn:hover {
+  color: #fff;
+}
+
+.btn-group {
+  gap: 1rem;
+}
+.btn-group--gap-xs {
+  gap: 0.75rem;
+}
+.btn-group--gap-sm {
+  gap: 1rem;
+}
+.btn-group--gap-md {
+  gap: 1.5rem;
+}
+.btn-group--gap-lg {
+  gap: 2rem;
+}
+
+body #magicMouseCursor {
+  border-color: #F7931E;
+}
+
+.form-select {
+  background-image: none;
+  color: #555555;
+}
+
+.form-control {
+  background-color: #fff;
+  padding-inline: 1.5rem;
+}
+.form-control::placeholder {
+  color: #555555;
+  opacity: 0.7;
+}
+.form-control:focus {
+  box-shadow: none;
+  border-color: #F7931E;
+}
+.form-control.date-input {
+  background-color: #fff;
+}
+.form-control.textarea {
+  min-height: 160px;
+  padding-block: 1rem;
+}
+.form-control:not(textarea) {
+  height: 56px;
+}
+
+.form-check-input:checked {
+  background-color: #F7931E;
+  border-color: #F7931E;
+}
+.form-check-input:focus {
+  border-color: rgba(247, 147, 30, 0.7);
+  box-shadow: 0 0 0 0.25rem rgba(247, 147, 30, 0.3);
+}
+
+.form-label {
+  color: #1F2A59;
+  font-weight: 600;
+}
+
+.breadcrumb-item a {
+  color: #fff;
+}
+.breadcrumb-item.active {
+  color: #F7931E;
+}
+
+.pagination li .page-link {
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  outline: none;
+  background-color: #fff;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  border-radius: 100%;
+}
+.pagination li .page-link:focus {
+  box-shadow: none;
+}
+.pagination li .page-link:hover {
+  background-color: #F7931E;
+}
+.pagination li:first-child .page-link, .pagination li:last-child .page-link {
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  border-radius: 100%;
+}
+
+.cart-plus-minus {
+  border: 1px solid #F2F6F9;
+  width: 125px;
+  margin: 0 auto;
+}
+.cart-plus-minus .dec.qtybutton {
+  border-right: 1px solid #F2F6F9;
+  height: 40px;
+  left: 0;
+  top: 0;
+}
+.cart-plus-minus .cart-plus-minus-box {
+  border: medium none;
+  color: #1F2A59;
+  float: left;
+  font-size: 14px;
+  height: 38px;
+  margin: 0;
+  text-align: center;
+  width: 125px;
+  outline: none;
+}
+.cart-plus-minus .qtybutton {
+  color: #1F2A59;
+  float: inherit;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 40px;
+  margin: 0;
+  text-align: center;
+  width: 40px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.cart-plus-minus .qtybutton:hover {
+  background: #F7931E;
+  color: #fff;
+}
+.cart-plus-minus .inc.qtybutton {
+  border-left: 1px solid #F2F6F9;
+  height: 40px;
+  right: 0;
+  top: 0;
+}
+
+.map {
+  height: 350px;
+}
+.tags-section {
+  padding: 15px 30px;
+  border: 1px solid #F2F6F9;
+  border-top: none;
+  gap: 15px;
+  -webkit-border-radius: 0 0 10px 10px;
+  -moz-border-radius: 0 0 10px 10px;
+  border-radius: 0 0 10px 10px;
+}
+.tags-section .tags li {
+  padding: 5px 0;
+}
+.tags-section .tags li span {
+  padding: 10px 15px;
+  color: #fff;
+}
+.tags-section .tags li span::after {
+  top: 50%;
+  right: 0;
+  transform: rotate(45deg) translateY(-50%);
+  width: 15px;
+  height: 15px;
+}
+.tags-section .tags li a {
+  outline: none;
+  margin: 0 3px;
+  border: 1px solid #F2F6F9;
+  color: #1F2A59;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  border-radius: 3px;
+  padding: 8px 20px;
+}
+.tags-section .tags li a:hover {
+  color: #fff;
+}
+.tags-section .social-link-list li {
+  padding: 5px 0;
+}
+.tags-section .social-link-list li a {
+  background-color: #F7931E;
+  height: 40px;
+  width: 40px;
+  line-height: 40px;
+}
+
+.flatpickr-day.selected,
+.flatpickr-day.startRange,
+.flatpickr-day.endRange,
+.flatpickr-day.selected.inRange,
+.flatpickr-day.startRange.inRange,
+.flatpickr-day.endRange.inRange,
+.flatpickr-day.selected:focus,
+.flatpickr-day.startRange:focus,
+.flatpickr-day.endRange:focus,
+.flatpickr-day.selected:hover,
+.flatpickr-day.startRange:hover,
+.flatpickr-day.endRange:hover,
+.flatpickr-day.selected.prevMonthDay,
+.flatpickr-day.startRange.prevMonthDay,
+.flatpickr-day.endRange.prevMonthDay,
+.flatpickr-day.selected.nextMonthDay,
+.flatpickr-day.startRange.nextMonthDay,
+.flatpickr-day.endRange.nextMonthDay {
+  background: #F7931E;
+  border-color: #F7931E;
+  color: #1F2A59;
+}
+
+.padding-tb {
+  padding-block: 80px;
+}
+@media (min-width: 992px) {
+  .padding-tb {
+    padding-block: 120px;
+  }
+}
+
+.theme-color2 {
+  color: #8CC63F;
+}
+
+.theme-color3 {
+  color: #29ABE2;
+}
+
+.section__header {
+  max-width: 630px;
+  margin: 0 auto calc(1.4375rem + 1.9285714286vw);
+}
+@media (min-width: 1400px) {
+  .section__header {
+    margin: 0 auto 3.125rem;
+  }
+}
+.section__header h5 {
+  color: #29ABE2;
+  font-family: "DM Sans", sans-serif;
+}
+.section__header p {
+  max-width: 460px;
+  margin: 0 auto;
+}
+
+.pagination li .page-link {
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  outline: none;
+  background-color: #fff;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  border-radius: 100%;
+}
+.pagination li .page-link:focus {
+  box-shadow: none;
+}
+.pagination li .page-link:hover {
+  background-color: #F7931E;
+}
+.pagination li:first-child .page-link, .pagination li:last-child .page-link {
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  border-radius: 100%;
+}
+
+.common-filter {
+  gap: 20px;
+}
+.common-filter__btn {
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: #FEFBF2;
+  border: 0;
+  border-radius: 0.25rem;
+  padding: 0.65rem 1.25rem;
+}
+.common-filter__btn:hover, .common-filter__btn.active {
+  background-color: #F7931E;
+}
+
+.bg-theme2 {
+  background: #8CC63F;
+}
+
+.bg-theme3 {
+  background: #29ABE2;
+}
+
+.section-bg {
+  background: #FEFBF2;
+}
+
+.scrollToTop {
+  position: fixed;
+  bottom: -30%;
+  right: 5%;
+  z-index: 99;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 5px;
+  color: #fff;
+  background: #F7931E;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.scrollToTop i,
+.scrollToTop svg {
+  color: #fff;
+}
+.scrollToTop:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 5px 20px 0px rgba(247, 147, 30, 0.5);
+}
+
+.lab-btn {
+  padding: 16px 30px;
+  font-size: 16px;
+  border: 0;
+  font-family: "Poppins", sans-serif;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.lab-btn.bg-transparate {
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+.lab-btn.bg-title {
+  background: #1F2A59;
+}
+@media (min-width: 576px) {
+  .lab_btn_group .lab-btn {
+    margin-bottom: 0;
+  }
+}
+
+input, textarea, select {
+  outline: none;
+  border: 1px solid #EFEFEF;
+  background: #fff;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+img {
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.filters-button-group .filter-btn {
+  padding: 12px 30px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+.bg-img {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+ul li a.facebook {
+  background: #3b5998 !important;
+  color: #fff !important;
+}
+ul li a.instagram {
+  background: #e4405f !important;
+  color: #fff !important;
+}
+ul li a.linkedin {
+  background: #007bb5 !important;
+  color: #fff !important;
+}
+ul li a.twitter {
+  background: #55acee !important;
+  color: #fff !important;
+}
+
+.progressbararea {
+  max-width: 100%;
+}
+.progressbararea li .progress {
+  height: 6px;
+}
+.progressbararea li .progress .progress-bar {
+  height: 4px;
+}
+.progressbararea li:nth-child(2) .progress .progress-bar {
+  background: #8CC63F;
+}
+.progressbararea li:nth-child(2) .title p span {
+  color: #8CC63F;
+}
+.progressbararea li:nth-child(3) .progress .progress-bar {
+  background: #29ABE2;
+}
+.progressbararea li:nth-child(3) .title p span {
+  color: #29ABE2;
+}
+
+.mb-none-120 {
+  margin-bottom: -120px;
+}
+
+.mt-none-42 {
+  margin-top: -42px;
+}
+
+@keyframes lab_round {
+  100% {
+    transform: rotateZ(360deg);
+  }
+}
+@keyframes lab_zoomin {
+  0% {
+    transform: translateY(-20px) translateX(0px);
+  }
+  50% {
+    transform: translateY(0px) translateX(-20px);
+  }
+  100% {
+    transform: translateY(-20px) translateX(0px);
+  }
+}
+@keyframes lab_run_top_y {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-30px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+@keyframes lab_sideeffect {
+  0% {
+    transform: translateY(0px);
+  }
+  25% {
+    transform: translateX(60px);
+  }
+  50% {
+    transform: translateY(60px);
+  }
+  75% {
+    transform: translateX(60px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+@media (max-width: 991px) {
+  .wow {
+    animation-name: none !important;
+    visibility: visible !important;
+  }
+}
+.preloader {
+  background-color: #ECF4FE;
+  z-index: 9999999;
+}
+.preloader .loader {
+  animation: lab_round 5s linear infinite;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes rotationBack {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+.custom-btn {
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  border: 1px solid #F7931E;
+  border-radius: 0.25rem;
+  background-color: #F7931E;
+  color: #1F2A59;
+  padding-inline: 2rem;
+  line-height: 52px;
+}
+.custom-btn:before, .custom-btn:after {
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.custom-btn:before {
+  right: calc(-60px - 5px);
+  border-right: calc(60px + 5px) solid transparent;
+  border-bottom: calc(60px + 5px) solid #1F2A59;
+  transform: translateX(-100%);
+}
+.custom-btn:after {
+  left: calc(-60px - 5px);
+  border-left: calc(60px + 5px) solid transparent;
+  border-top: calc(60px + 5px) solid #1F2A59;
+  transform: translateX(100%);
+}
+.custom-btn:hover {
+  color: #fff;
+  border-color: #1F2A59;
+}
+.custom-btn:hover:before {
+  transform: translateX(-49%);
+}
+.custom-btn:hover:after {
+  transform: translateX(49%);
+}
+.custom-btn span {
+  position: inherit;
+  z-index: 1;
+}
+.custom-btn--bordered {
+  background-color: transparent;
+  color: #1F2A59;
+}
+.custom-btn--bordered:hover {
+  color: #1F2A59;
+  border-color: #F7931E;
+}
+.custom-btn--bordered:hover::before {
+  border-bottom-color: #F7931E;
+}
+.custom-btn--bordered:hover::after {
+  border-top-color: #F7931E;
+}
+.custom-btn--sm {
+  padding-inline: 1.5rem;
+  height: 56px;
+  line-height: 56px;
+}
+
+.text-btn {
+  color: #1F2A59;
+  font-weight: 600;
+}
+.text-btn span {
+  color: inherit;
+  font-weight: inherit;
+}
+
+.fb-btn {
+  background-color: #3b5998;
+  border-radius: 0.25rem;
+  color: #fff;
+  padding: 0.85rem 1.75rem;
+}
+.fb-btn:hover {
+  color: #fff;
+}
+
+.btn-group {
+  gap: 1rem;
+}
+.btn-group--gap-xs {
+  gap: 0.75rem;
+}
+.btn-group--gap-sm {
+  gap: 1rem;
+}
+.btn-group--gap-md {
+  gap: 1.5rem;
+}
+.btn-group--gap-lg {
+  gap: 2rem;
+}
+
+@media (max-width: 1199px) {
+  .banner--one {
+    padding-top: 120px;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .banner--one .banner__content {
+    position: relative;
+    z-index: 2;
+  }
+}
+.banner--one .banner__content h2 {
+  font-size: calc(1.525rem + 2.8285714286vw);
+}
+@media (min-width: 1400px) {
+  .banner--one .banner__content h2 {
+    font-size: 4rem;
+  }
+}
+.banner--one .banner__content h2 span {
+  color: #8CC63F;
+}
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .banner--one .banner__content h2 {
+    font-size: 52px;
+  }
+}
+.banner--one .banner__content h6 {
+  letter-spacing: 2px;
+}
+.banner--one .banner__content p {
+  font-size: 1.125rem;
+}
+.banner--one .banner__discount {
+  padding: 5px 15px;
+  background: #8CC63F;
+  font-size: 0.875rem;
+}
+.banner--one .banner__thumb::after {
+  right: 0px;
+  top: 35px;
+  width: 300px;
+  height: 260px;
+  animation: lab_zoomin 5s linear infinite;
+  background: url(../images/banner/shape/01.png) no-repeat;
+}
+@media (min-width: 992px) {
+  .banner--one .banner__thumb::after {
+    display: block;
+  }
+}
+@media (min-width: 1400px) {
+  .banner--one .banner__thumb::after {
+    right: -90px;
+    top: 70px;
+  }
+}
+@media (min-width: 1200px) {
+  .banner--one .banner__thumb > img {
+    margin-left: -150px;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .banner--one .banner__thumb > img {
+    z-index: 1;
+    position: relative;
+  }
+}
+.banner--one .banner__thumb--content {
+  right: 0;
+  top: 100px;
+  animation: lab_zoomin 5s linear infinite;
+}
+@media (min-width: 992px) {
+  .banner--one .banner__thumb--content {
+    display: block;
+    right: 60px;
+  }
+}
+@media (min-width: 1400px) {
+  .banner--one .banner__thumb--content {
+    right: -40px;
+    top: 115px;
+  }
+}
+.banner--one .banner__thumb--content span {
+  font-size: 1.25rem;
+}
+.banner--one .banner__thumb--content h5 {
+  color: #8CC63F;
+}
+.banner--two {
+  padding-block: 80px;
+}
+@media (max-width: 767px) {
+  .banner--two {
+    position: relative;
+  }
+  .banner--two::after {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.7);
+  }
+}
+.banner--two .banner__thumb {
+  left: 35px;
+  top: 0px;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  border-radius: 100%;
+}
+@media (min-width: 768px) {
+  .banner--two .banner__thumb {
+    display: block;
+  }
+}
+.banner--two .banner__content {
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  border-radius: 100%;
+}
+@media (max-width: 767px) {
+  .banner--two .banner__content {
+    position: relative;
+    z-index: 1;
+  }
+}
+@media (min-width: 768px) {
+  .banner--two .banner__content {
+    width: 640px;
+    height: 640px;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    background: url(../images/banner/shape/bg.jpg) no-repeat;
+  }
+  .banner--two .banner__content::after, .banner--two .banner__content::before {
+    position: absolute;
+    content: "";
+    animation: lab_round 25s linear infinite;
+  }
+  .banner--two .banner__content::before {
+    top: 90px;
+    right: 120px;
+    width: 70px;
+    height: 80px;
+    background: url(../images/banner/shape/02.png) no-repeat;
+  }
+  .banner--two .banner__content::after {
+    left: 140px;
+    bottom: 120px;
+    width: 50px;
+    height: 50px;
+    background: url(../images/banner/shape/03.png) no-repeat;
+  }
+}
+.banner--two .banner__content h2 {
+  font-size: calc(1.5rem + 2.5714285714vw);
+}
+@media (min-width: 1400px) {
+  .banner--two .banner__content h2 {
+    font-size: 3.75rem;
+  }
+}
+@media (min-width: 768px) {
+  .banner--two .banner__content h2 {
+    color: #fff;
+  }
+}
+.banner--two .banner__content p {
+  font-size: 1.25rem;
+}
+@media (min-width: 768px) {
+  .banner--two .banner__content p {
+    color: #fff;
+    max-width: 80%;
+  }
+}
+.sponsor--one {
+  padding-block: 60px;
+}
+.sponsor--two {
+  padding-bottom: 90px;
+}
+.sponsor__item {
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+.feature--one .feature__item {
+  padding: 60px 30px;
+}
+.feature--one .feature__item:hover .feature__thumb img {
+  transform: scale(1.1);
+}
+.feature__area {
+  margin-top: -100px;
+  z-index: 99;
+}
+.feature__item {
+  padding: 60px 30px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.feature__item:hover {
+  box-shadow: 0px 10px 10px 0px rgba(85, 85, 85, 0.1);
+}
+.service--one .service__item {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+.service--one .service__item:hover .service__thumb img {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+.service--one .service__content .lab-btn {
+  padding: 10px 30px;
+}
+.service--one .service__pagination span {
+  width: 24px;
+  height: 24px;
+  line-height: 24px;
+  opacity: 1;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  border-radius: 100%;
+  font-size: 0.75rem;
+}
+.service--one .service__pagination span.swiper-pagination-bullet-active {
+  background: #F7931E;
+}
+.service--two .col-12:nth-child(2n) .service__item:hover .service__content h5 a {
+  color: #29ABE2;
+}
+.service--two .col-12:nth-child(2n) .service__thumb::after {
+  background: rgba(41, 171, 226, 0.9);
+}
+.service--two .col-12:nth-child(2n) .service__content ul li i {
+  color: #29ABE2;
+}
+.service--two .col-12:nth-child(2n) .service__content .lab-btn {
+  background: #29ABE2;
+}
+.service--two .col-12:nth-child(3n) .service__item:hover .service__content h5 a {
+  color: #F7931E;
+}
+.service--two .col-12:nth-child(3n) .service__thumb::after {
+  background: rgba(247, 147, 30, 0.9);
+}
+.service--two .col-12:nth-child(3n) .service__content ul li i {
+  color: #F7931E;
+}
+.service--two .col-12:nth-child(3n) .service__content .lab-btn {
+  background: #F7931E;
+}
+.service--two .col-12:nth-child(4n) .service__item:hover .service__content h5 a {
+  color: #3b5998;
+}
+.service--two .col-12:nth-child(4n) .service__thumb::after {
+  background: rgba(59, 89, 152, 0.9);
+}
+.service--two .col-12:nth-child(4n) .service__content ul li i {
+  color: #3b5998;
+}
+.service--two .col-12:nth-child(4n) .service__content .lab-btn {
+  background: #3b5998;
+}
+.service--two .service__item {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.service--two .service__item:hover {
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+.service--two .service__item:hover .service__thumb::after {
+  clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 0);
+  height: 100%;
+}
+.service--two .service__item:hover .service__icon {
+  width: 60px;
+  height: 60px;
+  left: 50%;
+  bottom: 50%;
+  transform: translate(-50%, 50%);
+}
+.service--two .service__item:hover .service__content h5 a {
+  color: #8CC63F;
+}
+.service--two .service__thumb::after {
+  width: 100%;
+  height: 100px;
+  bottom: 0;
+  left: 0;
+  background: rgba(140, 198, 63, 0.9);
+  clip-path: polygon(50% 40%, 100% 0, 100% 100%, 0 100%, 0 0);
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.service--two .service__icon {
+  bottom: 30px;
+  left: 30px;
+  width: 40px;
+  height: 40px;
+  z-index: 1;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .service--two .service__content h5 {
+    font-size: 20px;
+  }
+}
+.service--two .service__content .lab-btn {
+  padding: 10px 30px;
+  background: #8CC63F;
+}
+.service--two .service__content ul li {
+  padding-block: 5px;
+}
+.service--two .service__content ul li i {
+  color: #8CC63F;
+}
+.service--details .service__maincontent {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+.service--details .service__maincontent img {
+  object-fit: cover;
+  object-position: center;
+}
+.pricing--one {
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-color: #FEFBF2;
+}
+.pricing--one .section__header .phone::after {
+  width: calc(100% + 20px);
+  height: calc(100% + 20px);
+  border: 2px dashed #fff;
+  margin-top: -50px;
+  margin-left: -50px;
+  top: 50%;
+  left: 50%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  border-radius: 100%;
+  animation: lab_round 25s linear infinite;
+}
+.pricing--one .section__header h2 {
+  font-size: calc(1.425rem + 1.8vw);
+}
+@media (min-width: 1400px) {
+  .pricing--one .section__header h2 {
+    font-size: 3rem;
+  }
+}
+@media (min-width: 992px) {
+  .pricing--one .section__wrapper .col-12:nth-child(1) .pricing__item {
+    border-radius: 10px 50px 0px 10px;
+  }
+}
+.pricing--one .section__wrapper .col-12:nth-child(2) .pricing__item {
+  background: #8CC63F;
+}
+@media (min-width: 992px) {
+  .pricing--one .section__wrapper .col-12:nth-child(2) .pricing__item {
+    border-radius: 50px 10px 10px 0px;
+  }
+}
+.pricing--one .section__wrapper .col-12:nth-child(2) .pricing__bottom .lab-btn {
+  color: #8CC63F;
+}
+.pricing--one .pricing__item {
+  padding: 30px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+@media (min-width: 1400px) {
+  .pricing--one .pricing__item {
+    padding: 60px;
+  }
+}
+.pricing--one .pricing__item .abs_offer {
+  top: -5px;
+  right: 30px;
+}
+@media (min-width: 1400px) {
+  .pricing--one .pricing__item .abs_offer {
+    right: 60px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .pricing--one .pricing__item .abs_offer {
+    display: none;
+  }
+}
+@media (max-width: 575px) {
+  .pricing--one .pricing__top--left img {
+    margin-bottom: 15px;
+  }
+}
+.pricing--one .pricing__body p {
+  font-size: 1.125rem;
+}
+.pricing--one .pricing__body ul li {
+  padding-block: 5px;
+  width: 100%;
+}
+@media (min-width: 576px) {
+  .pricing--one .pricing__body ul li {
+    width: calc(50% - 15px);
+  }
+}
+.pricing--one .pricing__bottom {
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  gap: 15px 30px;
+}
+.pricing--one .pricing__bottom h5 span {
+  font-size: 1.125rem;
+}
+.pricing--two .col-12:nth-child(1) .pricing__content .lab-btn {
+  background: #8CC63F;
+}
+.pricing--two .col-12:nth-child(1) .pricing__price--left {
+  background: #8CC63F;
+}
+.pricing--two .col-12:nth-child(3) .pricing__content .lab-btn {
+  background: #29ABE2;
+}
+.pricing--two .col-12:nth-child(3) .pricing__price--left {
+  background: #29ABE2;
+}
+.pricing--two .payment {
+  border-top: 6px solid #F7931E;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+}
+@media (min-width: 992px) {
+  .pricing--two .payment__thumb {
+    text-align: right;
+  }
+}
+.pricing--two .pricing__item {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  border: 1px solid #EDF2F6;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.pricing--two .pricing__item:hover {
+  box-shadow: 0px 10px 10px rgba(85, 85, 85, 0.1);
+}
+.pricing--two .pricing__thumb {
+  height: 180px;
+}
+.pricing--two .pricing__thumb img {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+.pricing--two .pricing__content ul li {
+  padding-block: 5px;
+}
+.pricing--two .pricing__content ul li b {
+  color: #1F2A59;
+}
+.pricing--two .pricing__price {
+  margin-top: -30px;
+}
+.pricing--two .pricing__price--left {
+  padding: 10px 30px;
+  background: #F7931E;
+  -webkit-border-radius: 4px 0 0 4px;
+  -moz-border-radius: 4px 0 0 4px;
+  border-radius: 4px 0 0 4px;
+}
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .pricing--two .pricing__price--left {
+    padding: 5px 15px;
+  }
+}
+.pricing--two .pricing__price--right {
+  padding: 11px 30px;
+  background: #1F2A59;
+  -webkit-border-radius: 0 4px 4px 0;
+  -moz-border-radius: 0 4px 4px 0;
+  border-radius: 0 4px 4px 0;
+}
+@media (min-width: 576px) {
+  .pricing--two .pricing__price--right {
+    padding: 12px 30px;
+  }
+}
+@media (min-width: 768px) {
+  .pricing--two .pricing__price--right {
+    padding: 14px 30px;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .pricing--two .pricing__price--right {
+    padding: 10px 20px;
+  }
+}
+@media (min-width: 1400px) {
+  .pricing--two .pricing__price--right {
+    padding: 15px 30px;
+  }
+}
+.pricing--two .pricing__price--right p {
+  font-size: 1.125rem;
+}
+.pricing--three .col-12:nth-child(1) .pricing__content .lab-btn {
+  background: #8CC63F;
+}
+.pricing--three .col-12:nth-child(1) .pricing__price {
+  background: #8CC63F;
+}
+.pricing--three .col-12:nth-child(3) .pricing__content .lab-btn {
+  background: #29ABE2;
+}
+.pricing--three .col-12:nth-child(3) .pricing__price {
+  background: #29ABE2;
+}
+.pricing--three .pricing__item {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  border: 1px solid #EDF2F6;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.pricing--three .pricing__item:hover {
+  box-shadow: 0px 10px 10px rgba(85, 85, 85, 0.1);
+}
+@media (min-width: 576px) and (max-width: 991px) {
+  .pricing--three .pricing__thumb {
+    height: 230px;
+  }
+  .pricing--three .pricing__thumb img {
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+}
+.pricing--three .pricing__thumb::after {
+  top: 0;
+  left: 0;
+  background: rgba(31, 42, 89, 0.8);
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+.pricing--three .pricing__thumb img {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+.pricing--three .pricing__thumb h4 {
+  left: 50%;
+  top: 30px;
+  z-index: 1;
+  transform: translateX(-50%);
+}
+@media (min-width: 576px) {
+  .pricing--three .pricing__thumb h4 {
+    top: 60px;
+  }
+}
+.pricing--three .pricing__thumb .shapeimg {
+  top: -5px;
+  right: 10px;
+  z-index: 1;
+}
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .pricing--three .pricing__thumb .shapeimg {
+    display: none;
+  }
+}
+.pricing--three .pricing__thumb .shapeimg img {
+  width: auto;
+}
+.pricing--three .pricing__content ul li {
+  padding-block: 5px;
+}
+.pricing--three .pricing__content ul li b {
+  color: #1F2A59;
+}
+.pricing--three .pricing__price {
+  width: 150px;
+  height: 150px;
+  border: 6px solid #fff;
+  align-content: center;
+  margin: -85px auto 30px;
+  z-index: 1;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  border-radius: 100%;
+}
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .pricing--three .pricing__price {
+    margin-top: -50px;
+  }
+}
+.process--one .process__item {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  padding: 50px 30px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.process--one .process__item:hover {
+  transform: translateY(-10px);
+}
+.process--one .process__icon {
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  border-radius: 100%;
+  margin-bottom: 50px;
+}
+.process--one .process__icon span {
+  width: 50px;
+  height: 50px;
+  line-height: 46px;
+  background: #8CC63F;
+  top: calc(100% - 25px);
+  left: 50%;
+  border: 2px solid #fff;
+  transform: translateX(-50%);
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  border-radius: 100%;
+}
+.process--one .process__content h5 {
+  line-height: 1.5;
+}
+.process--two .process__item {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  padding: 50px 30px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.process--two .process__item:hover {
+  transform: translateY(-10px);
+}
+.process--two .process__icon {
+  margin-bottom: 80px;
+}
+.process--two .process__icon span {
+  background: #8CC63F;
+  top: calc(100% + 25px);
+  left: 50%;
+  border: 2px solid #fff;
+  transform: translateX(-50%);
+  padding: 5px 15px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  border-radius: 25px;
+}
+.process--two .process__content h5 {
+  line-height: 1.5;
+}
+.team {
+  background-repeat: no-repeat;
+}
+.team--one .col-12:nth-child(2n) .team__social--share {
+  background: #3b5998;
+}
+.team--one .col-12:nth-child(3n) .team__social--share {
+  background: #F7931E;
+}
+.team--one .col-12:nth-child(4n) .team__social--share {
+  background: #29ABE2;
+}
+.team--one .team__item {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.team--one .team__item:hover {
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+}
+.team--one .team__item:hover .team__content h5 {
+  color: #F7931E;
+}
+.team--one .team__item:hover .team__thumb img {
+  transform: scale(1.1);
+}
+.team--one .team__item:hover .team__thumb::after {
+  opacity: 1;
+}
+.team--one .team__thumb {
+  height: 290px;
+}
+.team--one .team__thumb::after {
+  left: 0;
+  top: 0;
+  opacity: 0;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.9) 100%);
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.team--one .team__thumb img {
+  object-fit: cover;
+  object-position: top;
+}
+.team--one .team__content {
+  padding: calc(1.3125rem + 0.6428571429vw);
+}
+@media (min-width: 1400px) {
+  .team--one .team__content {
+    padding: 1.875rem;
+  }
+}
+.team--one .team__social {
+  top: 30px;
+  left: 30px;
+  height: 40px;
+  z-index: 1;
+}
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .team--one .team__social {
+    top: 15px;
+    left: 15px;
+  }
+}
+.team--one .team__social:hover {
+  height: 100%;
+}
+.team--one .team__social:hover .team__social--list {
+  transform: scaleY(1);
+  visibility: visible;
+}
+.team--one .team__social--share {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  background: #8CC63F;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+}
+.team--one .team__social--list {
+  transform: scaleY(0);
+  transform-origin: top;
+  transition: all 0.3s ease;
+  visibility: hidden;
+}
+.team--one .team__social--list ul li a {
+  line-height: 40px;
+  background: #8CC63F;
+  margin-block: 5px;
+  padding-inline: 15px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+}
+.team--one .team__social--list ul li a i {
+  font-size: 1rem;
+  width: 10px;
+  height: 16px;
+}
+.team--one .team__social--list ul li a span {
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.team--one .team__social--list ul li a:hover span {
+  display: inherit;
+}
+.team--two .col-12:nth-child(2) .team__item::after {
+  background: #29ABE2;
+}
+.team--two .col-12:nth-child(2) .team__item:hover .team__content h5 a {
+  color: #29ABE2;
+}
+.team--two .col-12:nth-child(3) .team__item::after {
+  background: #3b5998;
+}
+.team--two .col-12:nth-child(3) .team__item:hover .team__content h5 a {
+  color: #3b5998;
+}
+.team--two .col-12:nth-child(4) .team__item::after {
+  background: #F7931E;
+}
+.team--two .col-12:nth-child(4) .team__item:hover .team__content h5 a {
+  color: #F7931E;
+}
+@media (min-width: 576px) {
+  .team--two .team__item {
+    padding: 40px;
+  }
+}
+.team--two .team__item::after {
+  width: 140px;
+  height: 140px;
+  top: 0;
+  left: 0;
+  background: #8CC63F;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.team--two .team__item:hover::after {
+  background: #8CC63F;
+}
+.team--two .team__item:hover .team__content h5 a {
+  color: #8CC63F;
+}
+.team--two .team__thumb {
+  z-index: 1;
+  border: 6px solid #fff;
+  filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.1));
+}
+@media (min-width: 576px) {
+  .team--two .team__thumb {
+    width: 40%;
+    margin-bottom: 0;
+  }
+}
+.team--two .team__thumb img {
+  object-fit: cover;
+}
+@media (min-width: 576px) {
+  .team--two .team__content {
+    width: 60%;
+    padding-left: 30px;
+  }
+}
+@media (min-width: 1400px) {
+  .team--two .team__content p {
+    max-width: 90%;
+  }
+}
+.team--two .team__content ul {
+  gap: 5px;
+}
+.team--two .team__content ul li a {
+  width: 36px;
+  height: 36px;
+  line-height: 36px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  background: rgba(31, 42, 89, 0.1);
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.team--two .team__content ul li a:hover {
+  -webkit-transform: translateY(-5px);
+  -ms-transform: translateY(-5px);
+  transform: translateY(-5px);
+}
+.team--deatils .team__thumb img {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+@media (min-width: 992px) {
+  .team--deatils .team__thumb--info {
+    padding-left: 30px;
+  }
+}
+.team--deatils .team__thumb--info ul li {
+  padding-block: 10px;
+}
+.team--deatils .team__thumb--info ul li .left {
+  width: 100px;
+}
+@media (min-width: 576px) {
+  .team--deatils .team__thumb--info ul li .left {
+    width: 120px;
+  }
+  .team--deatils .team__thumb--info ul li .left p {
+    font-size: 16px;
+  }
+}
+.team--deatils .team__thumb--info ul li .left p {
+  font-size: 0.875rem;
+}
+.team--deatils .team__thumb--info ul li .right {
+  width: calc(100% - 100px);
+}
+@media (min-width: 576px) {
+  .team--deatils .team__thumb--info ul li .right {
+    width: calc(100% - 120px);
+  }
+}
+.team--deatils .team__thumb--info ul li .right::after {
+  content: ":";
+  left: 0;
+  top: 0;
+}
+.team--deatils .team__thumb--info ul li .right ul li a {
+  width: 32px;
+  height: 32px;
+  line-height: 32px;
+  font-size: 0.875rem;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.team--deatils .team__content .progressbararea li {
+  padding-block: 15px;
+}
+.project .section__header {
+  max-width: 750px;
+}
+.project__item {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+.project__item:hover .project__content {
+  opacity: 1;
+}
+.project__content {
+  background-color: rgba(41, 171, 226, 0.9);
+  top: 0;
+  left: 0;
+  opacity: 0;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.project__content::after {
+  bottom: 0;
+  left: 0;
+  border-bottom: 120px solid #F7931E;
+  border-right: 120px solid transparent;
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  .project__content::after {
+    display: none;
+  }
+}
+.project__icon {
+  width: 56px;
+  height: 56px;
+  line-height: 52px;
+  border-radius: 100%;
+  z-index: 1;
+  left: 30px;
+  bottom: 30px;
+  border: 2px solid #F7931E;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  .project__icon {
+    display: none;
+  }
+}
+.project__icon:hover img {
+  transform: rotate(90deg);
+}
+.project--one .project__icon img {
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.project--two .project__content {
+  padding: 0;
+}
+.project--two .project__content h5 {
+  padding-inline: 30px;
+  padding-top: 30px;
+}
+.project--two .project__content span {
+  padding-inline: 30px;
+}
+.project--details .project__content {
+  position: static;
+  opacity: 1;
+  background: transparent;
+}
+.project--details .project__info {
+  border: 1px solid #F2F6F9;
+  margin-top: -50px;
+}
+@media (min-width: 992px) {
+  .project--details .project__info {
+    margin-top: -125px;
+  }
+}
+.project--details .project__info .title {
+  border-bottom: 1px solid #F2F6F9;
+}
+.project--details .project__info .content ul li {
+  padding: 15px 30px;
+  border-bottom: 1px solid #F2F6F9;
+}
+.project--details .project__info .content ul li:nth-last-child(1) {
+  border-bottom: none;
+}
+@media (min-width: 576px) {
+  .project--details .project__info .content ul li {
+    width: 50%;
+  }
+  .project--details .project__info .content ul li:nth-last-child(2) {
+    border-bottom: none;
+  }
+}
+.project .swiper-slide.swiper-slide-duplicate {
+  display: none;
+}
+
+.testimonial .swiper-slide.swiper-slide-next .testimonial__rating .rating {
+  background: #29ABE2;
+}
+.testimonial .swiper-slide.swiper-slide-next .testimonial__rating span {
+  background: #3b5998;
+}
+.testimonial__area {
+  margin-top: 120px;
+}
+.testimonial__navigation .navi {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  background-color: rgba(255, 255, 255, 0.3);
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  border-radius: 100%;
+}
+.testimonial__navigation .navi:hover {
+  background-color: #F7931E;
+}
+.testimonial__inner {
+  background-color: #fff;
+  padding: 30px 15px;
+  gap: 20px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+@media (min-width: 576px) {
+  .testimonial__inner {
+    padding-left: 0;
+    text-align: left;
+    padding: 30px;
+    gap: 60px;
+  }
+}
+.testimonial__thumb {
+  width: 100%;
+  z-index: 1;
+}
+@media (min-width: 576px) {
+  .testimonial__thumb {
+    width: 100px;
+  }
+}
+.testimonial__thumb .thumb {
+  width: 140px;
+}
+@media (max-width: 575px) {
+  .testimonial__thumb .thumb {
+    margin-inline: auto;
+  }
+}
+.testimonial__thumb .thumb img {
+  z-index: 1;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  border-radius: 100%;
+}
+.testimonial__thumb .shapeimg {
+  top: -40px;
+  left: 0px;
+}
+@media (min-width: 576px) {
+  .testimonial__thumb .shapeimg {
+    display: block;
+  }
+}
+.testimonial__content {
+  width: 100%;
+}
+@media (min-width: 576px) {
+  .testimonial__content {
+    width: calc(100% - 160px);
+  }
+}
+@media (max-width: 575px) {
+  .testimonial__content .name {
+    width: 100%;
+    margin-bottom: 5px;
+  }
+}
+@media (max-width: 575px) {
+  .testimonial__content .img {
+    display: none;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .testimonial__content .img {
+    display: none;
+  }
+}
+.testimonial__content .shapeimg {
+  right: 0;
+  bottom: -10px;
+}
+@media (max-width: 575px) {
+  .testimonial__rating {
+    justify-content: center;
+  }
+}
+.testimonial__rating .rating {
+  padding: 5px 10px;
+  background: #8CC63F;
+  -webkit-border-radius: 2px 0 0 2px;
+  -moz-border-radius: 2px 0 0 2px;
+  border-radius: 2px 0 0 2px;
+}
+.testimonial__rating .rating i {
+  font-size: 0.875rem;
+}
+.testimonial__rating span {
+  padding: 5px 10px;
+  -webkit-border-radius: 0 2px 2px 0;
+  -moz-border-radius: 0 2px 2px 0;
+  border-radius: 0 2px 2px 0;
+}
+
+.choose--one::after {
+  width: 50%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  background: url(../images/choose/bg.jpg) no-repeat;
+  background-position: center;
+}
+@media (min-width: 992px) {
+  .choose--one::after {
+    width: 35%;
+    display: block;
+  }
+}
+@media (min-width: 1200px) {
+  .choose--one::after {
+    width: 50%;
+  }
+}
+.choose--one .section__header p {
+  margin-left: 0;
+  max-width: 600px;
+}
+.blog--one .col-12:nth-child(1) .blog__content .lab-btn {
+  background: #8CC63F;
+}
+.blog--one .col-12:nth-child(3) .blog__content .lab-btn {
+  background: #29ABE2;
+}
+.blog--one .blog__item {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.blog--one .blog__item:hover {
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+}
+.blog--one .blog__item:hover .blog__thumb img {
+  transform: scale(1.2);
+}
+.blog--one .blog__content ul {
+  gap: 0 30px;
+}
+.blog--one .blog__content ul li {
+  padding-block: 8px;
+  font-size: 15px;
+}
+@media (min-width: 576px) {
+  .blog--one .blog__content ul li {
+    font-size: 16px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .blog--one .blog__content ul li {
+    font-size: 15px;
+  }
+}
+.blog--one .blog__content ul li:last-child {
+  color: #29ABE2;
+}
+.blog--one .blog__content .lab-btn {
+  padding: 10px 30px;
+}
+.blog--two .blog__item {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.blog--two .blog__item:hover {
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+}
+.blog--two .blog__item:hover .blog__thumb img {
+  transform: scale(1.2);
+}
+.blog--two .blog__content ul {
+  padding-block: 15px;
+  border-bottom: 1px solid #F2F6F9;
+}
+@media (min-width: 1400px) {
+  .blog--two .blog__content ul li {
+    margin-right: 30px;
+  }
+}
+.blog--two .blog__content ul li:first-child i {
+  color: #F7931E;
+}
+.blog--two .blog__content ul li:last-child a {
+  color: #29ABE2;
+}
+.blog--two .blog__content ul li:last-child:hover a {
+  color: #29ABE2;
+}
+.blog--two .blog__content ul li:last-child i {
+  color: #29ABE2;
+}
+.blog--two .blog__content h5 {
+  line-height: 1.5;
+}
+.blog--two .blog__content .lab-btn {
+  padding: 10px 30px;
+}
+.blog--three .blog__item {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.blog--three .blog__item:hover {
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+}
+.blog--three .blog__item:hover .blog__thumb img {
+  transform: scale(1.2);
+}
+.blog--three .blog__content ul {
+  padding-block: 15px;
+}
+.blog--three .blog__content ul li:first-child i {
+  color: #F7931E;
+}
+.blog--three .blog__content ul li:last-child a {
+  color: #29ABE2;
+}
+.blog--three .blog__content ul li:last-child:hover a {
+  color: #29ABE2;
+}
+.blog--three .blog__content ul li:last-child i {
+  color: #29ABE2;
+}
+.blog--three .blog__content h5 {
+  line-height: 1.5;
+}
+.blog--single .blog__item {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom: 1px solid #F2F6F9;
+}
+.blog--single .blog__item:hover .blog__thumb img {
+  transform: scale(1);
+}
+.blog--single .blog__content {
+  margin-top: 15px;
+}
+@media (max-width: 575px) {
+  .blog--single .blog__meta ul li {
+    padding-block: 5px;
+  }
+}
+
+.quote {
+  background: url(../images/bg/01.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.quote i {
+  border-radius: 100%;
+  width: 90px;
+  height: 90px;
+  line-height: 90px;
+  font-size: calc(1.375rem + 1.2857142857vw);
+}
+@media (min-width: 1400px) {
+  .quote i {
+    font-size: 2.5rem;
+  }
+}
+@media (min-width: 576px) {
+  .quote i {
+    margin-bottom: 0;
+  }
+}
+.quote h5 {
+  line-height: 1.6;
+}
+@media (min-width: 576px) {
+  .quote h5 {
+    width: calc(100% - 90px);
+    padding-left: 30px;
+  }
+}
+
+.counter__area {
+  margin-top: -40px;
+}
+.counter--one .section__header {
+  max-width: 600px;
+}
+.counter--one .counter__item {
+  padding: 60px 30px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+.counter--one .counter__title h6 {
+  font-size: 1rem;
+}
+
+.faq .section__header p {
+  max-width: 100%;
+}
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .faq .section__header p {
+    max-width: 90%;
+    margin-left: 0;
+  }
+}
+.faq__thumb {
+  animation: lab_sideeffect 20s linear infinite;
+}
+.faq .accordion-item {
+  border: 1px solid #F2F6F9;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+.faq .accordion-item:not(:last-child) {
+  margin-block-end: 10px;
+}
+.faq .accordion-button {
+  font-size: 1.125rem;
+  padding: 15px 20px;
+  font-weight: 700;
+  text-transform: capitalize;
+  border: none;
+}
+.faq .accordion-button .accordion-icon {
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  width: 30px;
+  height: 30px;
+  font-size: 1rem;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  margin-inline-end: 20px;
+}
+@media (min-width: 768px) {
+  .faq .accordion-button .accordion-icon {
+    width: 40px;
+    height: 40px;
+  }
+}
+.faq .accordion-button .accordion-headerText {
+  width: calc(100% - 50px - 20px);
+}
+.faq .accordion-button:not(.collapsed) {
+  border-bottom: none;
+  background-color: #8CC63F;
+  color: #fff;
+  box-shadow: none;
+}
+.faq .accordion-button:not(.collapsed):after {
+  background-color: #fff;
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+.faq .accordion-button:not(.collapsed):before {
+  opacity: 0;
+}
+.faq .accordion-button:not(.collapsed) .accordion-icon {
+  background-color: #fff;
+  color: #1F2A59;
+}
+.faq .accordion-button:focus {
+  box-shadow: none;
+}
+.faq .accordion-button:before, .faq .accordion-button:after {
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: #fff;
+  background-image: none;
+}
+.faq .accordion-button:after {
+  height: 20px;
+  width: 2px;
+  right: 30px;
+}
+.faq .accordion-button:before {
+  right: 21px;
+  width: 20px;
+  height: 2px;
+}
+.faq .accordion-body {
+  padding: 15px 20px;
+}
+.faq--two .accordion-button {
+  background: #fff;
+  color: #1F2A59;
+  border-radius: 4px !important;
+}
+.faq--two .accordion-button:not(.collapsed) {
+  background-color: #fff;
+  color: #F7931E;
+}
+.faq--two .accordion-button:not(.collapsed):after {
+  background-color: #F7931E;
+}
+.faq--two .accordion-button:not(.collapsed):before {
+  opacity: 0;
+}
+.faq--two .accordion-button:not(.collapsed) .accordion-icon {
+  background-color: #F7931E;
+  color: #fff;
+}
+.faq--two .accordion-button:focus {
+  box-shadow: none;
+}
+.faq--two .accordion-button:before, .faq--two .accordion-button:after {
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: #fff;
+  background-image: none;
+}
+.faq--two .accordion-button:after {
+  height: 20px;
+  width: 2px;
+  right: 30px;
+}
+.faq--two .accordion-button:before {
+  right: 21px;
+  width: 20px;
+  height: 2px;
+}
+.faq--two .accordion-button.collapsed .accordion-icon {
+  color: #fff;
+}
+.faq--two .accordion-body {
+  padding: 0px 40px 30px 80px;
+}
+.orderform__area {
+  border: 1px solid #F2F6F9;
+  max-width: 800px;
+  margin: 0 auto;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+.orderform__head {
+  padding: 20px 0px;
+  border-bottom: 1px solid #F2F6F9;
+}
+@media (min-width: 576px) {
+  .orderform__head {
+    padding: 20px 30px;
+  }
+}
+.orderform__item {
+  padding: 20px 0px;
+  border-bottom: 1px solid #F2F6F9;
+}
+@media (min-width: 576px) {
+  .orderform__item {
+    padding: 20px 30px;
+  }
+}
+.orderform__item:last-child {
+  border-bottom: none;
+}
+.orderform__item input {
+  border: 1px solid #F2F6F9;
+}
+.orderform__item select {
+  border: 1px solid #F2F6F9;
+  background: url("data:image/svg+xml,<svg height='10px' width='10px' viewBox='0 0 16 16' fill='%23000000' xmlns='http://www.w3.org/2000/svg'><path d='M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z'/></svg>") no-repeat;
+  background-position: calc(100% - 0.75rem) center !important;
+  -moz-appearance: none !important;
+  -webkit-appearance: none !important;
+  appearance: none !important;
+  padding-right: 2rem !important;
+}
+.orderform__item ul {
+  gap: 15px;
+}
+.orderform__item ul li {
+  border: 1px solid #F2F6F9;
+  width: calc(50% - 15px);
+  padding: 20px 15px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+@media (min-width: 1200px) {
+  .orderform__item ul li {
+    width: calc(25% - 15px);
+  }
+}
+.orderform__item ul li.active {
+  background-color: #F7931E;
+  border-color: #F7931E;
+}
+.orderform__item ul li.active input {
+  background-color: #F7931E;
+}
+.orderform__item ul li.active input:checked {
+  background-color: #F7931E;
+  border-color: #F7931E;
+}
+.orderform__item ul li.active input:checked[type=radio] {
+  background-image: none;
+}
+.orderform__item ul li input {
+  top: 0;
+  left: 0;
+}
+.orderform__item ul li input:checked {
+  background-color: transparent;
+  border-color: transparent;
+}
+.orderform__item ul li input:checked[type=radio] {
+  background-image: none;
+}
+.orderform__item ul li .form-check-input {
+  outline: 0;
+  padding: 0;
+}
+.orderform__item ul li .form-check-input[type=radio] {
+  border-radius: 0px;
+  outline: none;
+  margin: 0;
+  border: 0;
+}
+.orderform__item ul li .form-check-input:focus {
+  box-shadow: none;
+}
+.orderform__item ul li label {
+  z-index: 1;
+}
+.orderform__item .cart-plus-minus .qtybutton {
+  font-size: 1.25rem;
+}
+.orderform__item .cart-plus-minus input {
+  padding-inline: 40px;
+}
+.orderform__item .lab-btn {
+  border: none;
+}
+
+.shop__mode a {
+  padding-inline: 10px;
+}
+.shop__mode a::after {
+  width: 1px;
+  height: 54px;
+  top: -17px;
+  left: -3px;
+  background: rgba(31, 42, 89, 0.1);
+}
+.shop__mode a:last-child {
+  padding-right: 0;
+}
+.shop__product.lists .col-lg-4.col-sm-6.col-12 {
+  max-width: 100%;
+}
+.shop__item {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+.shop__item:hover .shop__thumb img {
+  -webkit-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  transform: scale(1.3);
+}
+.shop__item:hover .shop__thumb::after {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+.shop__item:hover .shop__link {
+  opacity: 1;
+}
+@media (min-width: 768px) {
+  .shop__item--list .shop__thumb {
+    width: 240px;
+  }
+}
+@media (min-width: 768px) {
+  .shop__item--list .shop__content {
+    width: calc(100% - 240px);
+    padding-left: 30px;
+  }
+}
+.shop__thumb::after {
+  top: 0;
+  left: 0;
+  background: rgba(31, 42, 89, 0.7);
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.shop__thumb img {
+  object-fit: cover;
+}
+.shop__link {
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  opacity: 0;
+  z-index: 1;
+}
+.shop__link a {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  margin: 2px;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  border-radius: 100%;
+}
+.shop__content {
+  padding: 25px 10px 10px;
+}
+.shop__content h6 {
+  font-size: 1.125rem;
+}
+.shop__content .rating span i {
+  font-size: 0.8125rem;
+}
+@media (min-width: 992px) {
+  .shop--single .bg-lg-white {
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+}
+
+.singlethumb__left {
+  gap: 10px;
+}
+@media (min-width: 576px) {
+  .singlethumb__left {
+    width: 100px;
+    gap: 0;
+    margin-bottom: 0;
+  }
+}
+@media (max-width: 575px) {
+  .singlethumb__left .nav-link {
+    margin-bottom: 0;
+    width: calc(50% - 5px);
+  }
+}
+@media (min-width: 576px) {
+  .singlethumb__left .nav-link:last-child {
+    margin-bottom: 0;
+  }
+}
+.singlethumb__left .nav-link.active {
+  opacity: 0.25;
+}
+.singlethumb__left .nav-link.active .thumb {
+  cursor: no-drop;
+}
+@media (min-width: 576px) {
+  .singlethumb__right {
+    width: calc(100% - 100px);
+  }
+}
+@media (min-width: 576px) {
+  .singlethumb__right .thumb {
+    height: 418px;
+  }
+}
+.singlethumb__right .thumb img {
+  object-fit: cover;
+  object-position: center;
+}
+
+.singlecontent .rating span {
+  font-size: 0.8125rem;
+}
+.singlecontent ul li {
+  padding-block: 5px;
+  list-style-type: disc;
+}
+.singlecontent .countadd .lab-btn {
+  padding-block: 13px;
+}
+@media (max-width: 412px) {
+  .singlecontent .countadd .lab-btn {
+    margin-left: 0;
+    margin-top: 15px;
+  }
+}
+
+.review__area {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+.review__nav li {
+  padding: 15px 30px;
+  background: #29ABE2;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.review__content.review-content-show .description {
+  display: none;
+}
+.review__content.description-show .description {
+  display: block;
+}
+.review__content.description-show .review__showing {
+  display: none;
+}
+.review__showing ul li {
+  padding-block: 15px;
+  border-bottom: 1px solid rgba(31, 42, 89, 0.1);
+}
+.review__showing ul li .thumb {
+  width: 80px;
+}
+@media (min-width: 576px) {
+  .review__showing ul li .thumb {
+    margin-bottom: 0;
+  }
+}
+@media (min-width: 576px) {
+  .review__showing ul li .content {
+    width: calc(100% - 80px);
+    padding-left: 30px;
+  }
+}
+.review__meta .rating i {
+  font-size: 0.875rem;
+}
+.review__poston a {
+  font-size: 1.125rem;
+}
+.review__form form input, .review__form form textarea {
+  border: 1px solid rgba(31, 42, 89, 0.1);
+}
+.review__form form .ratings__rating i {
+  font-size: 0.875rem;
+}
+.description__content ul li {
+  padding-block: 5px;
+  list-style-type: decimal;
+}
+
+.cart__top {
+  -webkit-border-radius: 10px 10px 0 0;
+  -moz-border-radius: 10px 10px 0 0;
+  border-radius: 10px 10px 0 0;
+}
+@media (max-width: 767px) {
+  .cart__top {
+    overflow-x: auto;
+  }
+}
+@media (max-width: 767px) {
+  .cart__top table {
+    width: 800px;
+  }
+}
+.cart__top table thead tr th {
+  border: 0.5px solid #F2F6F9;
+  margin-bottom: -1px;
+  margin-right: -1px;
+  padding: 20px 30px;
+}
+.cart__top table tbody tr:nth-last-child(1) td:nth-child(1) {
+  margin-bottom: 0;
+}
+.cart__top table tbody tr td {
+  padding: 20px 30px;
+  border: 0.5px solid #F2F6F9;
+  margin-bottom: -1px;
+  margin-right: -1px;
+}
+.cart__bottom {
+  -webkit-border-radius: 0 0 10px 10px;
+  -moz-border-radius: 0 0 10px 10px;
+  border-radius: 0 0 10px 10px;
+}
+@media (max-width: 575px) {
+  .cart__bottom form {
+    gap: 15px;
+  }
+}
+.cart__bottom form input {
+  border: 1px solid rgba(31, 42, 89, 0.1);
+}
+@media (min-width: 576px) {
+  .cart__bottom form input {
+    width: calc(100% - 175px);
+  }
+}
+.cart__item {
+  box-shadow: none;
+}
+.cart__thumb {
+  width: 60px;
+}
+.cart__content {
+  width: calc(100% - 60px);
+}
+.cart__content a {
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+/*# sourceMappingURL=style.css.map */

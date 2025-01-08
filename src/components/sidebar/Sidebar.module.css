@@ -1,0 +1,80 @@
+.sidebar_container_guide {
+  background: transparent;
+  border-left: 1px solid #34495C;
+}
+
+.dropdown{
+  font-weight: 500;
+  font-size: 14px;
+  color: #989898;
+  line-height: 2;
+  padding-left: 8px;
+  display: flex;
+  align-items: center;
+}
+
+.payment_text{
+  font-weight: 500;
+  font-size: 14px;
+  color: #989898;
+  line-height: 2;
+  padding-left: 8px;
+  display: flex;
+  align-items: center;
+}
+
+.sidebar_mainfocus, .dropdown:hover {
+  font-weight: 500;
+  font-size: 14px;
+  padding-left: 8px;
+  border-radius: 6px;
+  background: var(--primary-color);
+  color: var(--text-color);
+  min-width: 180px;
+  width: 100%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  transition: ease 0.5s;
+}
+
+.sidebar_menu_item {
+  /* transition: ease-in-out .7s; */
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  width: 140px;
+  padding-left: 10px;
+  height: 38px;
+  font-weight: 500;
+  color: var(--dark-gray);
+}
+
+.sidebar_menu_item_category {
+  border-radius: 6px;
+  color: #989898;
+  cursor: pointer;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  width: 140px;
+  padding-left: 10px;
+  height: 38px;
+  font-size: 12px;
+}
+
+.sidebar_menu_item_category:hover {
+  border-radius: 6px;
+  background: var(--primary-color-hover);
+  color: var(--text-color);
+  cursor: pointer;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  width: 140px;
+  padding-left: 10px;
+  height: 38px;
+  font-size: 12px;
+  transition: ease 0.5s;
+}  

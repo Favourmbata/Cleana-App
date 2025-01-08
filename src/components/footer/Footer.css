@@ -1,0 +1,44 @@
+
+.footer_section{
+  padding: 3rem 0 0 0;
+  text-align: center;
+  background-color: #E1E7EB;
+}
+
+.footer_section h4{
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 3;
+}
+
+.footer_section p{
+  font-size: .8rem;
+  color: rgb(106, 106, 106);
+  /* color: var(--primary-color); */
+  cursor: pointer;
+  line-height: 3;
+}
+
+.footer_section p .link{
+  color: rgb(106, 106, 106);
+}
+
+.footer_section .address{
+  line-height: 2;
+}
+
+.copyright_section{
+  color: var(--title-color);
+  padding: 1.5rem 0 .5rem;
+  font-size: .8rem;
+}
+
+.copyright_section h4{
+  color: var(--title-color);
+  font-size: .8rem;
+  padding: 1rem 0;
+}
+
+.copyright_section h4 span{
+  color: black;
+}
